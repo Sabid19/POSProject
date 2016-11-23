@@ -1,0 +1,129 @@
+﻿
+@CHARSET "UTF-8";
+/*
+over-ride "Weak" message, show font in dark grey
+*/
+
+.progress-bar {
+    color: #333;
+} 
+
+/*
+Reference:
+http://www.bootstrapzen.com/item/135/simple-login-form-logo/
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	outline: none;
+}
+
+    .form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+		@include box-sizing(border-box);
+
+		&:focus {
+		  z-index: 2;
+		}
+	}
+
+body {
+	/*background: url(../Image/Admin/loginBackGr.jpg) no-repeat center center fixed;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.login-form {
+	margin-top: 130px;
+}
+
+form[role=login] {
+	color: #5d5d5d;
+	background: #f2f2f2;
+	padding: 26px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+    box-shadow:1px 0px 10px 4px rgba(101, 125, 142, 0.75);
+    -moz-box-shadow:1px 0px 10px 4px rgba(101, 125, 142, 0.75);
+    -webkit-box-shadow:1px 0px 10px 4px rgba(101, 125, 142, 0.75);
+}
+	form[role=login] img {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 35px;
+	}
+	form[role=login] input,
+	form[role=login] button {
+		font-size: 18px;
+		margin: 16px 0;
+	}
+	form[role=login] > div {
+		text-align: center;
+	}
+	
+.form-links {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 50px;
+}
+	.form-links a {
+		color: #fff;
+	}
+    #checkBox {
+        margin:0px;
+       
+    }
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+}
+.navbar-default{
+    background-color: #2fa4e7;
+    border-color: #1995dc;
+}
+.navbar-brand {
+    font-family: 'Shojumaru',cursive,Arial,serif;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    width: 183px;
+    font-size: 17px;
+}
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+.navbar-inner {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 30px;
+    height: 60px;
+}
+
+.navbar-brand img {
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+.navbar-inner .btn-group {
+    margin: 7px 5px 0 5px;
+}
+
+a {
+    color: #2fa4e7;
+    text-decoration: none;
+}
+

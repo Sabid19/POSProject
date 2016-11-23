@@ -1,0 +1,256 @@
+﻿<!DOCTYPE html>
+<html>
+<head >
+    <meta name="viewport" content="width=device-width" />
+    <title> @ViewBag.Title </title>
+    <link rel="icon" href="~/Image/Capture.PNG" type="image/x-icon">
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/charisma-app.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+    
+    <script src="~/scripts/Admin.js"></script>
+    <script src="~/scripts/jquery-3.1.0.min.js"></script>
+    <script src="~/scripts/bootstrap.min.js"></script>
+  
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <!--Fro Datepicker-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.3.3.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <!--application script files for angular components-->
+    <script src="~/scripts/app.js"></script>
+
+    @*<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">*@
+    <style>
+            .icontzt {
+                margin: -10px 0 0 !important;
+                border-top-color: #fff !important;
+                     }
+            /*.icontzt:hover , .icontzt:focus{
+                border-top-color: #2a649d !important;
+            }*/
+            .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+                background-color: transparent;
+                color: #3399f3;
+            }
+
+            .navbar {
+                background-image: linear-gradient(#fff, #eee 50%, #e4e4e4);
+                background-repeat: no-repeat;
+                border: 1px solid #d5d5d5;
+                filter: none;
+                text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+            }
+
+            .navbar-default {
+                background-color: #eeeeee;
+            }
+
+            /*.btn-default {
+                
+                background-repeat: no-repeat;
+                border: 1px solid #2e2f2f;
+                filter: none;
+            }*/
+
+            /*.btn-default {
+                background-color: #81744D;
+                color: #ffffff;
+            }*/
+
+                /*.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+                    background-color: #81744D;
+                    border-color: #81744D;
+                    color: #ffffff;
+                    
+                }*/
+
+            .menuheader {
+                line-height: 32px !important;
+                background-color: #e6e6e6;
+                border-radius: 10px;
+                color: #1D70C0 !important;
+            }
+
+            .social {
+               
+                height: 20px;
+                margin: 10px;
+            }
+
+            /*.btn-primary {
+                background-color: #3fcfbb;
+                border-color: #2fb2a0;
+            }*/
+
+                /*.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+                    background-color: #38c2af;
+                    border-color: #2aa493;
+                }*/
+
+            /*.btn {
+                -moz-border-bottom-colors: none;
+                -moz-border-left-colors: none;
+                -moz-border-right-colors: none;
+                -moz-border-top-colors: none;
+                border-image: none;
+                border-style: none none solid;
+                border-width: medium medium 4px;
+                outline: medium none;
+                padding: 6px 12px;
+                transition: border-color 0.1s ease-in-out 0s, background-color 0.1s ease-in-out 0s;
+            }*/
+
+            /*.btn {
+                border-radius: 0;
+            }*/
+
+            .main-box {
+                background: #FFFFFF;
+                box-shadow: 1px 1px 2px 0 #CCCCCC;
+                margin-bottom: 16px;
+                padding: 5px;
+            }
+    </style>
+</head>
+<body style="min-height:500px;">
+    <div class="navbar navbar-default" role="navigation" style="height:60px;">
+        <div class="navbar-inner">
+            <button type="button" class="navbar-toggle pull-left animated flip">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="@Url.Action("login", "Home")">
+                <img alt="MY POS" src="~/Image/Capture.PNG" class="hidden-xs" />
+            </a>
+            <!-- user dropdown starts -->
+
+            <div class="btn-group pull-right">
+                <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="width:100px;">
+                    <i class="glyphicon glyphicon-user pull-left"></i>
+                    <span class="hidden-sm hidden-xs">Admin</span>
+                    <span class="caret pull-right icontzt"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Profile</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </div>
+            <!-- user dropdown ends -->
+            <!-- theme selector ends -->
+            <ul class="collapse navbar-collapse nav navbar-nav top-menu">              
+                <li>                  
+                    <img class="social" src="~/Image/mobile-phone-logo.png" />(+8802) 9999999, 000000000, 01671860373
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-sm-2 col-lg-2">
+        <div class="sidebar-nav">
+            <div class="nav-canvas">
+                <div class="nav-sm nav nav-stacked">
+                </div>
+                <ul class="nav nav-pills nav-stacked main-menu">
+                    <li class="box-header text-center" style="color:#2A6FB3; height:50px;line-height: 43px;">Main Menu</li>
+                   
+                    <li>
+                        <a class="ajax-link" href="@Url.Action("Product", "Home")"><i class="glyphicon glyphicon-ok-sign"></i><span>  Product</span></a>
+                    </li>
+                    <li>
+                        <a class="ajax-link" href="@Url.Action("Supplier","Supplier")"><i class="glyphicon glyphicon-ok-sign"></i><span>  Suppliers</span></a>
+                    </li>
+                    <li>
+                        <a class="ajax-link" href="@Url.Action("index","Purchase")"><i class="glyphicon glyphicon-ok-sign" aria-hidden="true"></i><span>  Purchases</span></a>
+                    </li>
+                    <li>
+                        <a class="ajax-link" href="#"><i class="glyphicon glyphicon-ok-sign"></i><span>  Payments</span></a>
+                    </li>
+
+                    
+                    <li>
+                        <a class="ajax-link" href="#">
+                            <i class="glyphicon glyphicon-ok-sign"></i><span>  Sales</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="@Url.Action("customer", "customer")"><i class="glyphicon glyphicon-ok-sign"></i><span>  Customers</span></a>
+                    </li>
+                 
+                    <li>
+                        <a class="ajax-link" href="#">
+                            <i class="glyphicon glyphicon-ok-sign"></i><span>  Reports</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--/span-->
+    <!-- left menu ends -->
+    <div id="content" class="col-lg-10 col-sm-10">
+        <!-- content starts -->
+      
+        <div  style="background: #eeeeee;">
+            @RenderBody()
+        </div>
+
+
+
+    </div>
+
+
+    @*<footer class="">
+        <p class="col-md-9 col-sm-9 col-xs-12 copyright">
+            &copy; <a href="http://www.demo.realprice.biz/" target="_blank"> Real Price</a> 2015 - 2016
+        </p>
+        <p class="col-md-3 col-sm-3 col-xs-12 powered-by">
+            Powered by: <a href="http://www.asit.com.bd/">ASIT</a>
+        </p>
+    </footer>*@
+
+    <script>
+
+    $('ul.main-menu li a').each(function () {
+        if ($($(this))[0].href == String(window.location))
+            $(this).parent().addClass('active');
+    });
+    $('.ajax-link').click(function (e) {
+
+        if (msie) e.which = 1;
+        if (e.which != 1 || !$('#is-ajax').prop('checked') || $(this).parent().hasClass('active')) return;
+        e.preventDefault();
+        $('.sidebar-nav').removeClass('active');
+        $('.navbar-toggle').removeClass('active');
+        $('#loading').remove();
+        $('#content').fadeOut().parent().append('<div id="loading" class="center">Loading...<div class="center"></div></div>');
+        var $clink = $(this);
+        History.pushState(null, null, $clink.attr('href'));
+        $('ul.main-menu li.active').removeClass('active');
+        $clink.parent('li').addClass('active');
+    });
+    </script>
+
+
+    <div class="container">
+        <footer class="navbar-fixed-bottom" style="background-color:#EEE">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-right copyR text-center">
+                        @*<p><a href="#" >© ASIT Services Ltd </a><a href="#" style="margin-left:-1%">Terms of use </a>*@ <a href="#" style="margin-left:-1%">Contact us </a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    
+</body>
+
+</html>
+
