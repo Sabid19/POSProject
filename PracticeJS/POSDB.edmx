@@ -59,8 +59,8 @@
           <Property Name="ProDesc" Type="nvarchar(max)" />
           <Property Name="ProBarCode" Type="nvarchar" MaxLength="50" />
           <Property Name="ProImage" Type="binary" MaxLength="50" />
-          <Property Name="SupplierId" Type="nvarchar" MaxLength="50" />
-          <Property Name="CatagoryId" Type="nvarchar" MaxLength="50" />
+          <Property Name="SupplierId" Type="int" Nullable="false" />
+          <Property Name="CatagoryId" Type="int" Nullable="false" />
           <Property Name="UnitInStock" Type="decimal" Precision="18" Scale="2" />
           <Property Name="ReorderLevel" Type="decimal" Precision="18" Scale="2" />
           <Property Name="CostPrice" Type="decimal" Precision="18" Scale="3" />
@@ -96,6 +96,30 @@
           <Property Name="email" Type="nvarchar" MaxLength="50" />
           <Property Name="Country" Type="nvarchar" MaxLength="50" />
         </EntityType>
+        <Association Name="FK_TBLPRODUCT_TBLPRODUCT1">
+          <End Role="TBLCATAGORY" Type="Self.TBLCATAGORY" Multiplicity="1" />
+          <End Role="TBLPRODUCT" Type="Self.TBLPRODUCT" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TBLCATAGORY">
+              <PropertyRef Name="CatagoriId" />
+            </Principal>
+            <Dependent Role="TBLPRODUCT">
+              <PropertyRef Name="CatagoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TBLPRODUCT_TBLSUPPLIER">
+          <End Role="TBLSUPPLIER" Type="Self.TBLSUPPLIER" Multiplicity="1" />
+          <End Role="TBLPRODUCT" Type="Self.TBLPRODUCT" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TBLSUPPLIER">
+              <PropertyRef Name="SupplierId" />
+            </Principal>
+            <Dependent Role="TBLPRODUCT">
+              <PropertyRef Name="SupplierId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <EntityContainer Name="POSDBModelStoreContainer">
           <EntitySet Name="TBLCATAGORY" EntityType="Self.TBLCATAGORY" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLCUSTOMER" EntityType="Self.TBLCUSTOMER" Schema="dbo" store:Type="Tables" />
@@ -104,6 +128,14 @@
           <EntitySet Name="TBLPRODUCT" EntityType="Self.TBLPRODUCT" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLPURCHASE" EntityType="Self.TBLPURCHASE" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLSUPPLIER" EntityType="Self.TBLSUPPLIER" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_TBLPRODUCT_TBLPRODUCT1" Association="Self.FK_TBLPRODUCT_TBLPRODUCT1">
+            <End Role="TBLCATAGORY" EntitySet="TBLCATAGORY" />
+            <End Role="TBLPRODUCT" EntitySet="TBLPRODUCT" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TBLPRODUCT_TBLSUPPLIER" Association="Self.FK_TBLPRODUCT_TBLSUPPLIER">
+            <End Role="TBLSUPPLIER" EntitySet="TBLSUPPLIER" />
+            <End Role="TBLPRODUCT" EntitySet="TBLPRODUCT" />
+          </AssociationSet>
         </EntityContainer>
       </Schema>
     </edmx:StorageModels>
@@ -117,6 +149,7 @@
           <Property Name="CatagoriId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="CatagoryName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="CDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="TBLPRODUCTs" Relationship="Self.FK_TBLPRODUCT_TBLPRODUCT1" FromRole="TBLCATAGORY" ToRole="TBLPRODUCT" />
         </EntityType>
         <EntityType Name="TBLCUSTOMER">
           <Key>
@@ -164,13 +197,15 @@
           <Property Name="ProDesc" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="ProBarCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="ProImage" Type="Binary" MaxLength="50" FixedLength="true" />
-          <Property Name="SupplierId" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="CatagoryId" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="SupplierId" Type="Int32" Nullable="false" />
+          <Property Name="CatagoryId" Type="Int32" Nullable="false" />
           <Property Name="UnitInStock" Type="Decimal" Precision="18" Scale="2" />
           <Property Name="ReorderLevel" Type="Decimal" Precision="18" Scale="2" />
           <Property Name="CostPrice" Type="Decimal" Precision="18" Scale="3" />
           <Property Name="SalePrice" Type="Decimal" Precision="18" Scale="3" />
           <Property Name="unit" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="TBLCATAGORY" Relationship="Self.FK_TBLPRODUCT_TBLPRODUCT1" FromRole="TBLPRODUCT" ToRole="TBLCATAGORY" />
+          <NavigationProperty Name="TBLSUPPLIER" Relationship="Self.FK_TBLPRODUCT_TBLSUPPLIER" FromRole="TBLPRODUCT" ToRole="TBLSUPPLIER" />
         </EntityType>
         <EntityType Name="TBLPURCHASE">
           <Key>
@@ -200,8 +235,33 @@
           <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="TBLPRODUCTs" Relationship="Self.FK_TBLPRODUCT_TBLSUPPLIER" FromRole="TBLSUPPLIER" ToRole="TBLPRODUCT" />
         </EntityType>
-        <EntityContainer Name="POSDBEntities" annotation:LazyLoadingEnabled="true">
+        <Association Name="FK_TBLPRODUCT_TBLPRODUCT1">
+          <End Role="TBLCATAGORY" Type="Self.TBLCATAGORY" Multiplicity="1" />
+          <End Role="TBLPRODUCT" Type="Self.TBLPRODUCT" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TBLCATAGORY">
+              <PropertyRef Name="CatagoriId" />
+            </Principal>
+            <Dependent Role="TBLPRODUCT">
+              <PropertyRef Name="CatagoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TBLPRODUCT_TBLSUPPLIER">
+          <End Role="TBLSUPPLIER" Type="Self.TBLSUPPLIER" Multiplicity="1" />
+          <End Role="TBLPRODUCT" Type="Self.TBLPRODUCT" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TBLSUPPLIER">
+              <PropertyRef Name="SupplierId" />
+            </Principal>
+            <Dependent Role="TBLPRODUCT">
+              <PropertyRef Name="SupplierId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="POSDBEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="TBLCATAGORies" EntityType="Self.TBLCATAGORY" />
           <EntitySet Name="TBLCUSTOMERs" EntityType="Self.TBLCUSTOMER" />
           <EntitySet Name="TBLLOGINs" EntityType="Self.TBLLOGIN" />
@@ -209,13 +269,21 @@
           <EntitySet Name="TBLPRODUCTs" EntityType="Self.TBLPRODUCT" />
           <EntitySet Name="TBLPURCHASEs" EntityType="Self.TBLPURCHASE" />
           <EntitySet Name="TBLSUPPLIERs" EntityType="Self.TBLSUPPLIER" />
+          <AssociationSet Name="FK_TBLPRODUCT_TBLPRODUCT1" Association="Self.FK_TBLPRODUCT_TBLPRODUCT1">
+            <End Role="TBLCATAGORY" EntitySet="TBLCATAGORies" />
+            <End Role="TBLPRODUCT" EntitySet="TBLPRODUCTs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TBLPRODUCT_TBLSUPPLIER" Association="Self.FK_TBLPRODUCT_TBLSUPPLIER">
+            <End Role="TBLSUPPLIER" EntitySet="TBLSUPPLIERs" />
+            <End Role="TBLPRODUCT" EntitySet="TBLPRODUCTs" />
+          </AssociationSet>
         </EntityContainer>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="POSDBModelStoreContainer" CdmEntityContainer="POSDBEntities">
+        <EntityContainerMapping StorageEntityContainer="POSDBModelStoreContainer" CdmEntityContainer="POSDBEntities1">
           <EntitySetMapping Name="TBLCATAGORies">
             <EntityTypeMapping TypeName="POSDBModel.TBLCATAGORY">
               <MappingFragment StoreEntitySet="TBLCATAGORY">

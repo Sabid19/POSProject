@@ -19,12 +19,15 @@ namespace PracticeJS
         public string ProDesc { get; set; }
         public string ProBarCode { get; set; }
         public byte[] ProImage { get; set; }
-        public string SupplierId { get; set; }
-        public string CatagoryId { get; set; }
+        public int SupplierId { get; set; }
+        public int CatagoryId { get; set; }
         public Nullable<decimal> UnitInStock { get; set; }
         public Nullable<decimal> ReorderLevel { get; set; }
         public Nullable<decimal> CostPrice { get; set; }
         public Nullable<decimal> SalePrice { get; set; }
         public string unit { get; set; }
+    
+        public virtual TBLCATAGORY TBLCATAGORY { get; set; }
+        public virtual TBLSUPPLIER TBLSUPPLIER { get; set; }
     }
 }

@@ -13,10 +13,10 @@ namespace PracticeJS
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class POSDBEntities : DbContext
+    public partial class POSDBEntities1 : DbContext
     {
-        public POSDBEntities()
-            : base("name=POSDBEntities")
+        public POSDBEntities1()
+            : base("name=POSDBEntities1")
         {
         }
     

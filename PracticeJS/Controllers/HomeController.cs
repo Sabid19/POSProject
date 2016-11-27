@@ -11,6 +11,9 @@ namespace PracticeJS.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            POSDBEntities1 db = new POSDBEntities1();
+            var supplier =    db.TBLSUPPLIERs.ToList();
+            var product = db.TBLPRODUCTs.ToList();
              // hi i am sabid 
             // this is for testing github
            // ssfgsd 

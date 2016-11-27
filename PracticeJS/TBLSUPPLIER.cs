@@ -14,6 +14,12 @@ namespace PracticeJS
     
     public partial class TBLSUPPLIER
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public TBLSUPPLIER()
+        {
+            this.TBLPRODUCTs = new HashSet<TBLPRODUCT>();
+        }
+    
         public int SupplierId { get; set; }
         public string Company_Name { get; set; }
         public string Contact_Name { get; set; }
@@ -23,5 +29,8 @@ namespace PracticeJS
         public string Phone { get; set; }
         public string email { get; set; }
         public string Country { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<TBLPRODUCT> TBLPRODUCTs { get; set; }
     }
 }
