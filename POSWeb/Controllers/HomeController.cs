@@ -86,7 +86,7 @@ namespace POSWeb.Controllers
         {
             var pap = _parm.GetCatagory();
             DataSet ds = _Data.GetDataSetResult(pap);
-           var currencyList = ds.Tables[0].DataTableToList<Catagory>();
+            var currencyList = ds.Tables[0].DataTableToList<Catagory>();
             ViewBag.Catagory = currencyList.Select(x => new SelectListItem() { Value = x.catagoriid.ToString(), Text = x.catagoryname }).ToList();
             return View();
         }

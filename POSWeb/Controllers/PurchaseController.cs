@@ -32,18 +32,6 @@ namespace POSWeb.Controllers
         [HttpPost]
         public ActionResult Index(PurchaseModelcs pmodle)
         {
-            //plist = (List<BusinessEntity.Purchase>)Session["PurList"];
-            //plist.Add(new BusinessEntity.Purchase() { Pdate = DateTime.Today.ToString(), MemoNo = pmodle.MemoNo, Remarks = pmodle.Remarks, SupplierId = pmodle.SupplierId ,Total=pmodle.Total});
-            //Session["PurList"] = plist;
-            //pmodle.Pdate = "";
-            //pmodle.MemoNo = "";
-            //pmodle.Remarks = "";
-            //pmodle.Total = "";
-            //foreach (var item in plist)
-            //{
-            //    pmodle.lstpurchase.Add(item);
-            //}
-
             var param = _parm.AddPurchase(pmodle);
             DataSet ds = _Data.GetDataSetResult(param);
             var list = ds.Tables[0].DataTableToList<BusinessEntity.Purchase>();
@@ -56,6 +44,15 @@ namespace POSWeb.Controllers
                 return View("Index", newmodel);
             }
             return View(newmodel);
+        }
+
+        public ActionResult addItem()
+        {
+            var param = _parm.GetProduct();
+            DataSet ds = _Data.GetDataSetResult(param);
+            var list = ds.Tables[0].DataTableToList<Product>();
+
+            return View(list);
         }
     }
 }
