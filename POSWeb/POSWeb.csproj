@@ -212,6 +212,7 @@
     <Content Include="Views\Supplier\Supplier.cshtml" />
     <Content Include="Views\Purchase\Index.cshtml" />
     <Content Include="Views\Customer\customer.cshtml" />
+    <Content Include="Views\Purchase\addItem.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

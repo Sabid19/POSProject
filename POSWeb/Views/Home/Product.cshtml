@@ -7,25 +7,6 @@
     Layout = Request.IsAjaxRequest() ? null : "~/Views/Shared/_layout1.cshtml";
 }
 
-@*<script type="text/javascript">
-    $(function () {
-        $('#theLink').click(function () {
-            $.ajax({
-                //url: $(this).attr('href'),
-                //type: "GET",
-                //success: function (response) {
-                //    $('#mainContent').html(response);
-                //}            
-                    cache: false,
-
-                    async: true,
-                    type: "GET",
-                    url: "@Url.Action("Product", "Home")"
-            });
-            return false;
-        });
-    });
-</script>*@
 
 <style>
     .table {
