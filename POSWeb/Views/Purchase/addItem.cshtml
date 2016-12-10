@@ -8,12 +8,12 @@
 <style>
     .scrollit {
     overflow:scroll;
-    height:100px;
+    height:250px;
 }
 </style>
 
-<div class="col col-xs-12 col-sm-5 col-md-5 col-lg-5">
-    <div class="panel panel-info">
+<div class="col col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="col-sm-6 panel panel-info">
         <!-- Default panel contents -->
         <div class="panel-heading">
             <h3 class="panel-title"><span ui-sref="root.purchases" class="glyphicon glyphicon-arrow-left" style="cursor: pointer" href="#/purchases"></span> Purchase Details</h3>
@@ -61,7 +61,7 @@
         </div>
     </div>
 
-    <div class="panel panel-info">
+    <div class="col-sm-6 panel panel-info">
         <div class="panel-heading">
             <h3 class="panel-title">Detail</h3>
         </div>
@@ -73,7 +73,6 @@
                         <input type="tel" class="form-control" id="pname" name="pname"  readonly="readonly" style="">
                     </div>
                 </div>
-
                 <div class="form-group">
                     <label class="control-label col col-xs-12 col-sm-4 col-md-4 col-lg-4">Quantity :</label>
                     <div class="col col-xs-12 col-sm-8 col-md-8 col-lg-8">
@@ -117,6 +116,8 @@
 <script>
     $(document).ready(function () {
         $("#table1").find("tr").click(function (event) {
+            $("#Qty1").val("");
+            $("#total").val("");
             var pname , price
             var listOfCell2 = $(this).children();
             //for (i = 0; i < listOfCell2.length; i++) {
