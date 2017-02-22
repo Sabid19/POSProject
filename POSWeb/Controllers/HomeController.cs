@@ -10,6 +10,16 @@ using DataAccess;
 using POSWeb.Models;
 using BusinessEntity;
 using PagedList;
+using DataAccess.Repository;
+using Microsoft.Owin;
+using Microsoft.Owin.Security.Cookies;
+using Microsoft.Owin.Security.OAuth;
+using Microsoft.Owin.Security;
+using System.Security.Claims;
+using POSWeb.ViewModel.Account;
+using Microsoft.AspNet.Identity.Owin;
+using POSWeb.App_Start;
+using POSWeb.Models.Account;
 
 namespace POSWeb.Controllers
 {
@@ -18,6 +28,9 @@ namespace POSWeb.Controllers
         public static string cons = ConfigurationManager.ConnectionStrings["DBConStr"].ConnectionString;
         GetParames _parm = new GetParames();
         GetData _Data = new GetData(cons);
+        Repository<Item> rep = new Repository<Item>();
+
+        [Authorize(Roles ="Admin")]
         // GET: Home
         public ActionResult Index()
         {
@@ -41,21 +54,65 @@ namespace POSWeb.Controllers
             //}
             #endregion
 
-            var param = _parm.login();
-            DataSet ds = _Data.GetDataSetResult(param);
+            //var param = _parm.login();
+            //DataSet ds = _Data.GetDataSetResult(param);
+
+            ViewBag.todaySales = "50"; // TodaySales();
+            ViewBag.yesterdaySales = "100";  //YesterdaySales();
             return View();
         }
-
+        [AllowAnonymous]
         public ActionResult Login()
         {
             return View();
+        }
+
+        [AllowAnonymous]
+        public ActionResult Error()
+        {
+            return View("NotFoundError");
+        }
+
+        [AllowAnonymous]
+        [HttpPost]
+        public ActionResult Login(LoginViewModel lmodel, string returnUrl)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(lmodel);
+            }
+            ApplicationSignInManager signinManager = Request.GetOwinContext().Get<ApplicationSignInManager>();
+
+            // This doesn't count login failures towards account lockout
+            // To enable password failures to trigger account lockout, change to shouldLockout: true
+            SignInStatus SigninStatus = signinManager.PasswordSignIn(lmodel.Email, lmodel.Password, lmodel.RememberMe, shouldLockout: false);
+            switch (SigninStatus)
+            {
+                case SignInStatus.Success:
+                    return Redirect("Home/Index");           
+                default:
+                    ModelState.AddModelError("", "Invalid login attempt.");
+                    return View(lmodel);
+            }
+        }
+
+        [Authorize]
+        public ActionResult Logout()
+        {
+            Request.GetOwinContext().Authentication.SignOut();
+            return Redirect("/");
         }
         public ActionResult Product(string currentFilter,string searchString, int? page)
         {
             //ViewBag.CurrentSort = sortOrder;
             //ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
             //ViewBag.DateSortParm = sortOrder == "Date" ? "date_desc" : "Date";
+            Repository<Item> rep = new Repository<Item>();
+            ASITPOSDBEntities db = new ASITPOSDBEntities();
 
+            var kkk = rep.GetAll();
+            var ttt = db.Items.ToList();
+            var lll = db.Catagories.ToList();
             if (searchString != null)
             {
                 page = 1;
@@ -86,7 +143,7 @@ namespace POSWeb.Controllers
         {
             var pap = _parm.GetCatagory();
             DataSet ds = _Data.GetDataSetResult(pap);
-            var currencyList = ds.Tables[0].DataTableToList<Catagory>();
+            var currencyList = ds.Tables[0].DataTableToList<BusinessEntity.Catagory>();
             ViewBag.Catagory = currencyList.Select(x => new SelectListItem() { Value = x.catagoriid.ToString(), Text = x.catagoryname }).ToList();
             return View();
         }

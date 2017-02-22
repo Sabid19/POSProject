@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DBConStr-Web.config Connection String" description="DBConStr Connection String used in web.config by the application to access the database." defaultValue="Data Source=59.152.97.179\MSSQL2K12;initial Catalog=POSDB;User ID=sa;Password=asit1qaz`123" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="H:\\Projects\\Pos\ new\\POSProject\ Going\\POSWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DBConStr']/@connectionString" />
+  </parameter>
+  <parameter name="ASITPOSDBEntities1-Web.config Connection String" description="ASITPOSDBEntities1 Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/POSDBModel1.csdl|res://*/POSDBModel1.ssdl|res://*/POSDBModel1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=59.152.97.179\MSSQL2K12;initial catalog=ASITPOSDB;user id=sa;password=asit1qaz`123;multipleactiveresultsets=True;application name=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="H:\\Projects\\Pos\ new\\POSProject\ Going\\POSWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ASITPOSDBEntities1']/@connectionString" />
+  </parameter>
+</parameters>

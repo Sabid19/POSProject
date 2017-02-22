@@ -1,0 +1,55 @@
+﻿@model IEnumerable<DataAccess.Catagory>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_layout1.cshtml";
+}
+
+<div class="box box-primary box-body">
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table id="mainTable" class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CatagoryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CDescription)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CatagoryName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CDescription)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.CatagoryId }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.CatagoryId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.CatagoryId })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+
+@section Styles {
+    @Styles.Render("~/Content/plugins/dataTables/dataTablesStyles")
+}
+
+@section Scripts {
+    @Scripts.Render("~/plugins/jeditable")
+    @Scripts.Render("~/plugins/dataTables")
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $('#mainTable').DataTable();
+    });
+    </script>
+}

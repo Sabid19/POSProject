@@ -1,0 +1,141 @@
+﻿@model IEnumerable<BusinessEntity.Product>
+@{
+    ViewBag.Title = "addItem";
+    Layout = "~/Views/Shared/_layout1.cshtml";
+}
+
+<h2>addItem</h2>
+<style>
+    .scrollit {
+    overflow:scroll;
+    height:250px;
+}
+</style>
+
+<div class="col col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="col-sm-6 panel panel-info">
+        <!-- Default panel contents -->
+        <div class="panel-heading">
+            <h3 class="panel-title"><span ui-sref="root.purchases" class="glyphicon glyphicon-arrow-left" style="cursor: pointer" href="#/purchases"></span> Purchase Details</h3>
+        </div>
+        <div class="panel-body">
+            <div class="form-group">
+                <form  style="">
+                    <div class="col col-xs-9 col-sm-7 col-md-7 col-lg-7">
+                        <input class="form-control input-field" type="text" placeholder="Search"  style="">
+                    </div>
+                    <div class="col col-xs-3 col-sm-2 col-md-2 col-lg-2">
+                        <button type="submit" class="btn btn-default pull-left"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        <div class="scrollit">
+            <!-- Table -->
+            <table id="table1" class="table table-responsive table-striped table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>On Hand</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>1.</td>
+                                <td>@item.ProductName</td>
+                                <td>@item.SalePrice</td>
+                                <td>@item.QuantityPerUnit</td>
+                        </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="panel-footer">
+        </div>
+    </div>
+
+    <div class="col-sm-6 panel panel-info">
+        <div class="panel-heading">
+            <h3 class="panel-title">Detail</h3>
+        </div>
+        <div class="panel-body">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label col col-xs-12 col-sm-4 col-md-4 col-lg-4">Product :</label>
+                    <div class="col col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                        <input type="tel" class="form-control" id="pname" name="pname"  readonly="readonly" style="">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col col-xs-12 col-sm-4 col-md-4 col-lg-4">Quantity :</label>
+                    <div class="col col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                        <input type="tel" class="form-control" id="Qty1" name="Remarks"  required="required">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col col-xs-12 col-sm-4 col-md-4 col-lg-4">Price :</label>
+                    <div class="col col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                        <input type="tel" class="form-control " id="price" name="Price" required="required" readonly="readonly">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col col-xs-12 col-sm-4 col-md-4 col-lg-4">Total :</label>
+                    <div class="col col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                        <input type="tel" class="form-control " id="total" name="Total" required="required">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col col-xs-12 col-sm-4 col-md-4 col-lg-4">Remarks :</label>
+                    <div class="col col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                        <input type="tel" class="form-control" name="Remarks" >
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col col-xs-12 col-sm-4 col-md-4 col-lg-4">&nbsp;</label>
+                    <div class="col col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                        <button  type="submit" class="btn btn-floating btn-info">Save</button>
+                        <button  type="button" class="btn btn-floating btn-danger">Update</button>
+                        <button type="button" class="btn btn-floating btn-danger">Reset</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+        <div class="panel-footer">
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#table1").find("tr").click(function (event) {
+            $("#Qty1").val("");
+            $("#total").val("");
+            var pname , price
+            var listOfCell2 = $(this).children();
+            //for (i = 0; i < listOfCell2.length; i++) {
+            //    alert($(listOfCell2[i]).text());
+            //}
+            pname = $(listOfCell2[1]).text();
+            price = $(listOfCell2[2]).text();          
+            $('#pname').val(pname);
+            $('#price').val(price);
+        });
+
+        $("#Qty1").keyup(function () {
+            var price = $("#price").val();
+            var qty =$("#Qty1").val();
+            var total = price * qty;
+            $("#total").val(total);
+        });
+
+    });
+  
+</script>

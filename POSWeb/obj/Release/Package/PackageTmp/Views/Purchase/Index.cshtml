@@ -1,0 +1,173 @@
+﻿@using POSWeb.Models;
+@model PurchaseModelcs
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_layout1.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <form name="myForm">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.MemoNo, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-4">
+                    @Html.EditorFor(model => model.MemoNo, new { htmlAttributes = new { @class = "form-control input-sm" } })
+                    @Html.ValidationMessageFor(model => model.MemoNo, "", new { @class = "text-danger" })
+                </div>
+                @Html.LabelFor(model => model.SupplierId, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-4">
+                    
+                    @Html.EditorFor(model => model.SupplierId, new { htmlAttributes = new { @class = "form-control input-sm" } })
+                    @Html.ValidationMessageFor(model => model.SupplierId, "", new { @class = "text-danger" })
+                </div>
+
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Total, htmlAttributes: new { @class = "control-label  col-md-2" })
+                <div class="col-md-4">
+                    @Html.EditorFor(model => model.Total, new { htmlAttributes = new { @class = "form-control input-sm" } })
+                    @Html.ValidationMessageFor(model => model.Total, "", new { @class = "text-danger" })
+                </div>
+
+                @Html.LabelFor(model => model.Remarks, htmlAttributes: new { @class = "control-label  col-md-2" })
+                <div class="col-md-4">
+                    @Html.EditorFor(model => model.Remarks, new { htmlAttributes = new { @class = "form-control input-sm" } })
+                    @Html.ValidationMessageFor(model => model.Remarks, "", new { @class = "text-danger" })
+                </div>
+
+            </div>
+
+           
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <button type="submit" value="Create" ng-disabled="userForm.$invalid" class="btn btn-default">Add</button>
+                </div>
+            </div>
+        </form>
+    </div>
+}
+
+ 
+<div ng-app="ui.bootstrap.demo">
+    <form>
+        <div class="row">
+            <div class="col-md-3" ng-controller="DatepickerPopupDemoCtrl">
+                <p class="input-group">
+                    <input type="text" class="form-control input-sm"
+                           uib-datepicker-popup="{{format}}" @*format of the date picked*@
+                           ng-model="dtpicker"
+                           is-open="popup1.opened" @*to show or hide the popup it is used*@
+                           popup-placement="bottom-right" @*display position of the datepicker either bottom/right/right-left/bottom-left etc*@
+                           datepicker-options="dateOptions" @*datepicker options like minDate,maxDate etc*@
+                           ng-required="true"
+                           close-text="Close" @*by deault 'Done' you can chage it*@
+                           alt-input-formats="altInputFormats" @*a list of alternative formats for manual entry*@
+                           show-button-bar="true" @*By default button bar showed at end of datepicker popup*@
+                           close-on-date-selection="true" />    @*Closes the popup after selection of date*@
+                        @*datepicker-popup-template-url="url of template" --we can over ride popup template url
+                            datepicker-template-url="url"  --override datepicker url*@
+                        <span class="input-group-btn">
+                            <button type="button" class="btn btn-default btn-sm" ng-click="open()"><i class="glyphicon glyphicon-calendar"></i></button>
+                        </span>
+                    </p>
+                </div>
+                <div class="col-md-3" ng-controller="DatepickerPopupDemoCtrl">
+                    <p class="input-group">
+                        <input type="text" class="form-control input-sm"
+                               uib-datepicker-popup="{{format}}" @*format of the date picked*@
+                               ng-model="dtpicker1"
+                               is-open="popup1.opened" @*to show or hide the popup it is used*@
+                               popup-placement="bottom-right" @*display position of the datepicker either bottom/right/right-left/bottom-left etc*@
+                               datepicker-options="dateOptions" @*datepicker options like minDate,maxDate etc*@
+                               ng-required="true"
+                               close-text="Close" @*by deault 'Done' you can chage it*@
+                               alt-input-formats="altInputFormats" @*a list of alternative formats for manual entry*@
+                               show-button-bar="true" @*By default button bar showed at end of datepicker popup*@
+                               close-on-date-selection="true" />    @*Closes the popup after selection of date*@
+                            @*datepicker-popup-template-url="url of template" --we can over ride popup template url
+                                datepicker-template-url="url"  --override datepicker url*@
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-default btn-sm" ng-click="open()"><i class="glyphicon glyphicon-calendar"></i></button>
+                            </span>
+                        </p>
+                    </div>
+                    <div id="custom-search-input col-md-3">
+                        <div class="input-group col-md-3">
+                            @Html.TextBox("SearchString", ViewBag.CurrentFilter as string, new { @class = "form-control input-sm", @placeholder = "Search.." })
+
+                            <span class="input-group-btn">
+                                <button class="btn btn-info btn-sm" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+
+            <div id="CDIv" class="row" ng-app="MyForm" >
+                <div class="col-lg-12" ng-controller="myCtrl" >
+                    <div class="main-box clearfix">
+                        <table class="table table-responsive user-list">
+                            <thead>
+                                <tr>
+                                    <th>Created</th>
+                                    <th>Supplier</th>
+                                    <th>Memo</th>
+                                    <th>Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{
+                                    foreach (var item in Model.lstpurchase)
+                                    {
+                                        <tr>
+                                            <td class="hidden"></td>
+                                            <td> @item.Pdate</td>
+                                            <td>@item.SupplierId </td>
+                                            <td>@item.MemoNo </td>
+                                            <td>@item.Total </td>
+                                            <td style="width: 20%;">
+                                                <a class="table-link" href="@Url.Action("addItem", "Purchase", new { id = 1 })" title="Edit">
+                                                    <span class="fa-stack">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-inverse fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                                <a class="table-link danger" name="aDelet" href="@Url.Action("DeletProduct", "Home", new { id = 1 })" title="Delete">
+                                                    <span class="fa-stack">
+                                                        <i class="fa fa-square fa-stack-2x"></i>
+                                                        <i class="fa fa-trash-o fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                        <pagination total-items="totalItems" ng-model="currentPage"
+                                    max-size="5" boundary-links="true"
+                                    items-per-page="numPerPage" class="pagination-sm">
+                        </pagination>
+                    </div>
+
+                </div>
+            </div>
+   
+
+<script>
+$(document).ready(function(){
+    $("input").each(function(){
+         $(this).val("");
+    });
+});
+</script>

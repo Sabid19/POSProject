@@ -1,0 +1,44 @@
+C:\Users\Anuyel\Source\Repos\posproject\BusinessEntity\bin\Debug\BusinessEntity.dll
+C:\Users\Anuyel\Source\Repos\posproject\BusinessEntity\bin\Debug\BusinessEntity.pdb
+C:\Users\Anuyel\Source\Repos\posproject\BusinessEntity\obj\Debug\BusinessEntity.csprojResolveAssemblyReference.cache
+C:\Users\Anuyel\Source\Repos\posproject\BusinessEntity\obj\Debug\BusinessEntity.dll
+C:\Users\Anuyel\Source\Repos\posproject\BusinessEntity\obj\Debug\BusinessEntity.pdb
+C:\Users\Anuyel\Desktop\posproject\BusinessEntity\bin\Debug\BusinessEntity.dll
+C:\Users\Anuyel\Desktop\posproject\BusinessEntity\bin\Debug\BusinessEntity.pdb
+C:\Users\Anuyel\Desktop\posproject\BusinessEntity\obj\Debug\BusinessEntity.dll
+C:\Users\Anuyel\Desktop\posproject\BusinessEntity\obj\Debug\BusinessEntity.pdb
+E:\Project\POS\posproject 170128\posproject going\posproject\BusinessEntity\bin\Debug\BusinessEntity.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\BusinessEntity\bin\Debug\BusinessEntity.pdb
+E:\Project\POS\posproject 170128\posproject going\posproject\BusinessEntity\obj\Debug\BusinessEntity.csprojResolveAssemblyReference.cache
+E:\Project\POS\posproject 170128\posproject going\posproject\BusinessEntity\obj\Debug\BusinessEntity.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\BusinessEntity\obj\Debug\BusinessEntity.pdb
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\BusinessEntity\bin\Debug\BusinessEntity.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\BusinessEntity\bin\Debug\BusinessEntity.pdb
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\BusinessEntity\obj\Debug\BusinessEntity.csprojResolveAssemblyReference.cache
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\BusinessEntity\obj\Debug\BusinessEntity.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\BusinessEntity\obj\Debug\BusinessEntity.pdb
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\BusinessEntity\bin\Debug\BusinessEntity.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\BusinessEntity\bin\Debug\BusinessEntity.pdb
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\BusinessEntity\obj\Debug\BusinessEntity.csprojResolveAssemblyReference.cache
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\BusinessEntity\obj\Debug\BusinessEntity.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\BusinessEntity\obj\Debug\BusinessEntity.pdb
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\BusinessEntity\bin\Debug\BusinessEntity.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\BusinessEntity\bin\Debug\BusinessEntity.pdb
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\BusinessEntity\obj\Debug\BusinessEntity.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\BusinessEntity\obj\Debug\BusinessEntity.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\BusinessEntity\obj\Debug\BusinessEntity.pdb
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\BusinessEntity\bin\Debug\BusinessEntity.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\BusinessEntity\bin\Debug\BusinessEntity.pdb
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\BusinessEntity\obj\Debug\BusinessEntity.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\BusinessEntity\obj\Debug\BusinessEntity.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\BusinessEntity\obj\Debug\BusinessEntity.pdb
+H:\Projects\Pos new\POSProject Going\BusinessEntity\bin\Debug\BusinessEntity.dll
+H:\Projects\Pos new\POSProject Going\BusinessEntity\bin\Debug\BusinessEntity.pdb
+H:\Projects\Pos new\POSProject Going\BusinessEntity\obj\Debug\BusinessEntity.csprojResolveAssemblyReference.cache
+H:\Projects\Pos new\POSProject Going\BusinessEntity\obj\Debug\BusinessEntity.dll
+H:\Projects\Pos new\POSProject Going\BusinessEntity\obj\Debug\BusinessEntity.pdb
+E:\Project\POS\POSProject Going\BusinessEntity\bin\Debug\BusinessEntity.dll
+E:\Project\POS\POSProject Going\BusinessEntity\bin\Debug\BusinessEntity.pdb
+E:\Project\POS\POSProject Going\BusinessEntity\obj\Debug\BusinessEntity.dll
+E:\Project\POS\POSProject Going\BusinessEntity\obj\Debug\BusinessEntity.pdb
+E:\Project\POS\POSProject Going\BusinessEntity\obj\Debug\BusinessEntity.csprojResolveAssemblyReference.cache

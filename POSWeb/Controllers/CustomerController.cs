@@ -33,16 +33,16 @@ namespace POSWeb.Controllers
 
             var param = _parm.GetCustomer();
             DataSet ds = _Data.GetDataSetResult(param);
-            var list = ds.Tables[0].DataTableToList<Customer>();
+          //  var list = ds.Tables[0].DataTableToList<Customer>();
 
             if (!String.IsNullOrEmpty(searchString))
             {
-                list = list.Where(s => s.Cname.ToUpper().Contains(searchString.ToUpper())).ToList();
+               // list = list.Where(s => s.Cname.ToUpper().Contains(searchString.ToUpper())).ToList();
             }
 
             int pageSize = 5;
             int pageNumber = (page ?? 1);
-            return View(list.ToPagedList(pageNumber, pageSize));
+            return View();
         }
     }
 }

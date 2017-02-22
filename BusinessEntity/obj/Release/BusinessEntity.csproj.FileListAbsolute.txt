@@ -1,0 +1,5 @@
+H:\Projects\Pos new\POSProject Going\BusinessEntity\bin\Release\BusinessEntity.dll
+H:\Projects\Pos new\POSProject Going\BusinessEntity\bin\Release\BusinessEntity.pdb
+H:\Projects\Pos new\POSProject Going\BusinessEntity\obj\Release\BusinessEntity.csprojResolveAssemblyReference.cache
+H:\Projects\Pos new\POSProject Going\BusinessEntity\obj\Release\BusinessEntity.dll
+H:\Projects\Pos new\POSProject Going\BusinessEntity\obj\Release\BusinessEntity.pdb

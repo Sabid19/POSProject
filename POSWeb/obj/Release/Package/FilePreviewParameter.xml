@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Default Web Site/POSProject" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^H:\\Projects\\Pos\ new\\POSProject\ Going\\POSWeb\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^H:\\Projects\\Pos\ new\\POSProject\ Going\\POSWeb\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="ASITPOSDBEntities1-Web.config Connection String" description="" value="metadata=res://*/POSDBModel1.csdl|res://*/POSDBModel1.ssdl|res://*/POSDBModel1.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=59.152.97.179\MSSQL2K12;Initial Catalog=ASITPOSDB;User ID=sa;Password=asit1qaz`123;MultipleActiveResultSets=True;Application Name=EntityFramework&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="H:\\Projects\\Pos\ new\\POSProject\ Going\\POSWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ASITPOSDBEntities1']/@connectionString" />
+  </parameter>
+  <parameter name="DBConStr-Web.config Connection String" description="" value="Data Source=59.152.97.179\MSSQL2K12;initial Catalog=POSDB;User ID=sa;Password=asit1qaz`123" tags="">
+    <parameterEntry kind="XmlFile" scope="H:\\Projects\\Pos\ new\\POSProject\ Going\\POSWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DBConStr']/@connectionString" />
+  </parameter>
+</parameters>

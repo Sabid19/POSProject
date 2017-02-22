@@ -1,0 +1,80 @@
+﻿@model IEnumerable<DataAccess.Item>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_layout1.cshtml";
+}
+
+<div class="box box-body box-danger">
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table" id="mainTable">
+        <thead>
+            <tr class="dataTableHead">
+                <th>
+                    ID
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    BarCode
+                </th>
+                <th>
+                    Description
+                </th>
+                <th>
+                    Category
+                </th>
+                <th>
+                    Alert Qty
+                </th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ItemID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.BarCode)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Catagory.CatagoryName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AlertQty)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.ItemID }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.ItemID }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.ItemID })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section Styles {
+    @Styles.Render("~/Content/plugins/dataTables/dataTablesStyles")
+}
+
+@section Scripts {
+    @Scripts.Render("~/plugins/jeditable")
+    @Scripts.Render("~/plugins/dataTables")
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#mainTable').DataTable();
+    });
+</script>
+  }

@@ -1,0 +1,75 @@
+﻿@model IEnumerable<DataAccess.SalesItem>
+@{
+    ViewBag.Title = "Sales Details";
+    Layout = "~/Views/Shared/_layout1.cshtml";
+}
+
+<div class="box box-danger box-body">
+    <table class="table table-striped table-responsive">
+        <thead>
+            <tr class="dataTableHead">
+                <th>
+                    @Html.DisplayNameFor(model => model.SalesID)
+                </th>
+                <th>
+                    Stock ID : Item Name
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Stock.BatchNo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Qty)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Rate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Amount)
+                </th>
+            </tr>
+        </thead>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SalesID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StockID) <text>&nbsp; : &nbsp;  </text> @Html.DisplayFor(modelItem => item.Stock.Item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Stock.BatchNo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Qty)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Rate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Amount)
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+
+@section Styles {
+    @Styles.Render("~/Content/plugins/dataTables/dataTablesStyles")
+}
+
+@section Scripts {
+    @Scripts.Render("~/plugins/jeditable")
+    @Scripts.Render("~/plugins/dataTables")
+<script>
+    $(document).ready(function () {
+        $('#dtaTable').DataTable({
+            "paging": true,
+            "ordering": true,
+            "info": true,
+            "filtering":true
+        });
+    });
+</script>
+
+}

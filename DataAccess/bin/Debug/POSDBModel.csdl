@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="POSWeb" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Catagory">
+    <Key>
+      <PropertyRef Name="CatagoryId" />
+    </Key>
+    <Property Name="CatagoryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CatagoryName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Items" Relationship="Self.FK_Item_Catagory" FromRole="Catagory" ToRole="Item" />
+  </EntityType>
+  <EntityType Name="GenericName">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GenericName1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Items" Relationship="Self.FK_dbo_Item_dbo_DrugGenericName_DrugGenericNameID" FromRole="GenericName" ToRole="Item" />
+  </EntityType>
+  <EntityType Name="Item">
+    <Key>
+      <PropertyRef Name="ItemID" />
+    </Key>
+    <Property Name="ItemID" Type="String" MaxLength="14" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="GenericNameID" Type="Int32" />
+    <Property Name="ManufacturerID" Type="Int32" />
+    <Property Name="CategeoryID" Type="Int32" />
+    <Property Name="AlertQty" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LastUpdated" Type="DateTime" Precision="3" />
+    <Property Name="BarCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Catagory" Relationship="Self.FK_Item_Catagory" FromRole="Item" ToRole="Catagory" />
+    <NavigationProperty Name="GenericName" Relationship="Self.FK_dbo_Item_dbo_DrugGenericName_DrugGenericNameID" FromRole="Item" ToRole="GenericName" />
+    <NavigationProperty Name="Manufacturer" Relationship="Self.FK_dbo_Item_dbo_Manufacturer_ManufacturerID" FromRole="Item" ToRole="Manufacturer" />
+    <NavigationProperty Name="PurchaseItems" Relationship="Self.FK_dbo_PurchaseItem_dbo_Item_ItemID" FromRole="Item" ToRole="PurchaseItem" />
+    <NavigationProperty Name="Stocks" Relationship="Self.FK_dbo_Stock_dbo_Item_ItemID" FromRole="Item" ToRole="Stock" />
+  </EntityType>
+  <EntityType Name="Manufacturer">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ManufacturerName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Items" Relationship="Self.FK_dbo_Item_dbo_Manufacturer_ManufacturerID" FromRole="Manufacturer" ToRole="Item" />
+  </EntityType>
+  <EntityType Name="Notification">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LowStock" Type="Int32" Nullable="false" />
+    <Property Name="ToExpire" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="PaymentId" />
+    </Key>
+    <Property Name="PaymentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SupplierId" Type="Int32" Nullable="false" />
+    <Property Name="Amount" Type="Decimal" Precision="18" Scale="6" />
+    <Property Name="MemoNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PayBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="Remarks" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Supplier" Relationship="Self.FK_Payment_Payment" FromRole="Payment" ToRole="Supplier" />
+  </EntityType>
+  <EntityType Name="Purchase">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="SupplierID" Type="Int32" Nullable="false" />
+    <Property Name="Amount" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Discount" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Tax" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="GrandTotal" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="IsPaid" Type="Boolean" Nullable="false" />
+    <Property Name="LastUpdated" Type="DateTime" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Supplier" Relationship="Self.FK_dbo_Purchase_dbo_Supplier_SupplierID" FromRole="Purchase" ToRole="Supplier" />
+    <NavigationProperty Name="PurchaseItems" Relationship="Self.FK_dbo_PurchaseItem_dbo_Purchase_PurchaseID" FromRole="Purchase" ToRole="PurchaseItem" />
+  </EntityType>
+  <EntityType Name="PurchaseItem">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PurchaseID" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="ItemID" Type="String" MaxLength="14" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Batch" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Qty" Type="Int32" Nullable="false" />
+    <Property Name="BonusIncluded" Type="Int32" />
+    <Property Name="CostPrice" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="SellingPrice" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Expiry" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Item" Relationship="Self.FK_dbo_PurchaseItem_dbo_Item_ItemID" FromRole="PurchaseItem" ToRole="Item" />
+    <NavigationProperty Name="Purchase" Relationship="Self.FK_dbo_PurchaseItem_dbo_Purchase_PurchaseID" FromRole="PurchaseItem" ToRole="Purchase" />
+  </EntityType>
+  <EntityType Name="Sale">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Amount" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Discount" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Tax" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="GrandTotal" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="Remarks" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="SalesItems" Relationship="Self.FK_dbo_SalesItem_dbo_Sales_SalesID" FromRole="Sales" ToRole="SalesItem" />
+  </EntityType>
+  <EntityType Name="SalesItem">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StockID" Type="Int32" Nullable="false" />
+    <Property Name="SalesID" Type="Int32" Nullable="false" />
+    <Property Name="Qty" Type="Int32" Nullable="false" />
+    <Property Name="Rate" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Amount" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <NavigationProperty Name="Sale" Relationship="Self.FK_dbo_SalesItem_dbo_Sales_SalesID" FromRole="SalesItem" ToRole="Sales" />
+    <NavigationProperty Name="Stock" Relationship="Self.FK_dbo_SalesItem_dbo_Stock_StockID" FromRole="SalesItem" ToRole="Stock" />
+  </EntityType>
+  <EntityType Name="Stock">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ItemID" Type="String" MaxLength="14" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="BatchNo" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Qty" Type="Int32" Nullable="false" />
+    <Property Name="CostPrice" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="SellingPrice" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="ManufacturedDate" Type="DateTime" Precision="3" />
+    <Property Name="ExpiryDate" Type="DateTime" Precision="3" />
+    <Property Name="InitialQty" Type="Int32" Nullable="false" />
+    <Property Name="ItemExpired" Type="Boolean" Nullable="false" />
+    <Property Name="Stop_Notification" Type="Boolean" Nullable="false" />
+    <Property Name="PurchaseID" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Item" Relationship="Self.FK_dbo_Stock_dbo_Item_ItemID" FromRole="Stock" ToRole="Item" />
+    <NavigationProperty Name="SalesItems" Relationship="Self.FK_dbo_SalesItem_dbo_Stock_StockID" FromRole="Stock" ToRole="SalesItem" />
+  </EntityType>
+  <EntityType Name="Supplier">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Contact" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Abbrevation" Type="String" MaxLength="6" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Payments" Relationship="Self.FK_Payment_Payment" FromRole="Supplier" ToRole="Payment" />
+    <NavigationProperty Name="Purchases" Relationship="Self.FK_dbo_Purchase_dbo_Supplier_SupplierID" FromRole="Supplier" ToRole="Purchase" />
+  </EntityType>
+  <EntityType Name="UserInfo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FullName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_Item_Catagory">
+    <End Role="Catagory" Type="Self.Catagory" Multiplicity="0..1" />
+    <End Role="Item" Type="Self.Item" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Catagory">
+        <PropertyRef Name="CatagoryId" />
+      </Principal>
+      <Dependent Role="Item">
+        <PropertyRef Name="CategeoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Item_dbo_DrugGenericName_DrugGenericNameID">
+    <End Role="GenericName" Type="Self.GenericName" Multiplicity="0..1" />
+    <End Role="Item" Type="Self.Item" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GenericName">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Item">
+        <PropertyRef Name="GenericNameID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Item_dbo_Manufacturer_ManufacturerID">
+    <End Role="Manufacturer" Type="Self.Manufacturer" Multiplicity="0..1" />
+    <End Role="Item" Type="Self.Item" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Manufacturer">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Item">
+        <PropertyRef Name="ManufacturerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_PurchaseItem_dbo_Item_ItemID">
+    <End Role="Item" Type="Self.Item" Multiplicity="1" />
+    <End Role="PurchaseItem" Type="Self.PurchaseItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Item">
+        <PropertyRef Name="ItemID" />
+      </Principal>
+      <Dependent Role="PurchaseItem">
+        <PropertyRef Name="ItemID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Stock_dbo_Item_ItemID">
+    <End Role="Item" Type="Self.Item" Multiplicity="1" />
+    <End Role="Stock" Type="Self.Stock" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Item">
+        <PropertyRef Name="ItemID" />
+      </Principal>
+      <Dependent Role="Stock">
+        <PropertyRef Name="ItemID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Payment_Payment">
+    <End Role="Supplier" Type="Self.Supplier" Multiplicity="1" />
+    <End Role="Payment" Type="Self.Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Supplier">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Payment">
+        <PropertyRef Name="SupplierId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Purchase_dbo_Supplier_SupplierID">
+    <End Role="Supplier" Type="Self.Supplier" Multiplicity="1" />
+    <End Role="Purchase" Type="Self.Purchase" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Supplier">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Purchase">
+        <PropertyRef Name="SupplierID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_PurchaseItem_dbo_Purchase_PurchaseID">
+    <End Role="Purchase" Type="Self.Purchase" Multiplicity="0..1" />
+    <End Role="PurchaseItem" Type="Self.PurchaseItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Purchase">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PurchaseItem">
+        <PropertyRef Name="PurchaseID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_SalesItem_dbo_Sales_SalesID">
+    <End Role="Sales" Type="Self.Sale" Multiplicity="1" />
+    <End Role="SalesItem" Type="Self.SalesItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sales">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SalesItem">
+        <PropertyRef Name="SalesID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_SalesItem_dbo_Stock_StockID">
+    <End Role="Stock" Type="Self.Stock" Multiplicity="1" />
+    <End Role="SalesItem" Type="Self.SalesItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Stock">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SalesItem">
+        <PropertyRef Name="StockID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MYPOSDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Catagories" EntityType="Self.Catagory" />
+    <EntitySet Name="GenericNames" EntityType="Self.GenericName" />
+    <EntitySet Name="Items" EntityType="Self.Item" />
+    <EntitySet Name="Manufacturers" EntityType="Self.Manufacturer" />
+    <EntitySet Name="Notifications" EntityType="Self.Notification" />
+    <EntitySet Name="Payments" EntityType="Self.Payment" />
+    <EntitySet Name="Purchases" EntityType="Self.Purchase" />
+    <EntitySet Name="PurchaseItems" EntityType="Self.PurchaseItem" />
+    <EntitySet Name="Sales" EntityType="Self.Sale" />
+    <EntitySet Name="SalesItems" EntityType="Self.SalesItem" />
+    <EntitySet Name="Stocks" EntityType="Self.Stock" />
+    <EntitySet Name="Suppliers" EntityType="Self.Supplier" />
+    <EntitySet Name="UserInfoes" EntityType="Self.UserInfo" />
+    <AssociationSet Name="FK_Item_Catagory" Association="Self.FK_Item_Catagory">
+      <End Role="Catagory" EntitySet="Catagories" />
+      <End Role="Item" EntitySet="Items" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Item_dbo_DrugGenericName_DrugGenericNameID" Association="Self.FK_dbo_Item_dbo_DrugGenericName_DrugGenericNameID">
+      <End Role="GenericName" EntitySet="GenericNames" />
+      <End Role="Item" EntitySet="Items" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Item_dbo_Manufacturer_ManufacturerID" Association="Self.FK_dbo_Item_dbo_Manufacturer_ManufacturerID">
+      <End Role="Manufacturer" EntitySet="Manufacturers" />
+      <End Role="Item" EntitySet="Items" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_PurchaseItem_dbo_Item_ItemID" Association="Self.FK_dbo_PurchaseItem_dbo_Item_ItemID">
+      <End Role="Item" EntitySet="Items" />
+      <End Role="PurchaseItem" EntitySet="PurchaseItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Stock_dbo_Item_ItemID" Association="Self.FK_dbo_Stock_dbo_Item_ItemID">
+      <End Role="Item" EntitySet="Items" />
+      <End Role="Stock" EntitySet="Stocks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Payment_Payment" Association="Self.FK_Payment_Payment">
+      <End Role="Supplier" EntitySet="Suppliers" />
+      <End Role="Payment" EntitySet="Payments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Purchase_dbo_Supplier_SupplierID" Association="Self.FK_dbo_Purchase_dbo_Supplier_SupplierID">
+      <End Role="Supplier" EntitySet="Suppliers" />
+      <End Role="Purchase" EntitySet="Purchases" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_PurchaseItem_dbo_Purchase_PurchaseID" Association="Self.FK_dbo_PurchaseItem_dbo_Purchase_PurchaseID">
+      <End Role="Purchase" EntitySet="Purchases" />
+      <End Role="PurchaseItem" EntitySet="PurchaseItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_SalesItem_dbo_Sales_SalesID" Association="Self.FK_dbo_SalesItem_dbo_Sales_SalesID">
+      <End Role="Sales" EntitySet="Sales" />
+      <End Role="SalesItem" EntitySet="SalesItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_SalesItem_dbo_Stock_StockID" Association="Self.FK_dbo_SalesItem_dbo_Stock_StockID">
+      <End Role="Stock" EntitySet="Stocks" />
+      <End Role="SalesItem" EntitySet="SalesItems" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

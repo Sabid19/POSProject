@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="947966b9b722489699ead70d86719d55" Name="Diagram1" ZoomLevel="34">
+        <EntityTypeShape EntityType="ASITPOSDBModel.C__MigrationHistory" Width="1.5" PointX="9.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASITPOSDBModel.AspNetRole" Width="1.5" PointX="7.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASITPOSDBModel.AspNetUserClaim" Width="1.5" PointX="12.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASITPOSDBModel.AspNetUserLogin" Width="1.5" PointX="12.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASITPOSDBModel.AspNetUser" Width="1.5" PointX="10" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASITPOSDBModel.Catagory" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASITPOSDBModel.GenericName" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASITPOSDBModel.Item" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASITPOSDBModel.Manufacturer" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASITPOSDBModel.Notification" Width="1.5" PointX="9.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASITPOSDBModel.Payment" Width="1.5" PointX="3" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASITPOSDBModel.Purchase" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASITPOSDBModel.PurchaseItem" Width="1.5" PointX="5.25" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASITPOSDBModel.Sale" Width="1.5" PointX="5.25" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASITPOSDBModel.SalesItem" Width="1.5" PointX="7.5" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASITPOSDBModel.SalesReturn" Width="1.5" PointX="7.5" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASITPOSDBModel.SalesReturnDetail" Width="1.5" PointX="9.75" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASITPOSDBModel.Stock" Width="1.5" PointX="5.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASITPOSDBModel.Supplier" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASITPOSDBModel.UserInfo" Width="1.5" PointX="11.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="ASITPOSDBModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="ASITPOSDBModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="ASITPOSDBModel.FK_Item_Catagory" ManuallyRouted="false" />
+        <AssociationConnector Association="ASITPOSDBModel.FK_dbo_Item_dbo_DrugGenericName_DrugGenericNameID" ManuallyRouted="false" />
+        <AssociationConnector Association="ASITPOSDBModel.FK_dbo_Item_dbo_Manufacturer_ManufacturerID" ManuallyRouted="false" />
+        <AssociationConnector Association="ASITPOSDBModel.FK_dbo_PurchaseItem_dbo_Item_ItemID" ManuallyRouted="false" />
+        <AssociationConnector Association="ASITPOSDBModel.FK_dbo_Stock_dbo_Item_ItemID" ManuallyRouted="false" />
+        <AssociationConnector Association="ASITPOSDBModel.FK_Payment_Payment" ManuallyRouted="false" />
+        <AssociationConnector Association="ASITPOSDBModel.FK_dbo_Purchase_dbo_Supplier_SupplierID" ManuallyRouted="false" />
+        <AssociationConnector Association="ASITPOSDBModel.FK_dbo_PurchaseItem_dbo_Purchase_PurchaseID" ManuallyRouted="false" />
+        <AssociationConnector Association="ASITPOSDBModel.FK_dbo_SalesItem_dbo_Sales_SalesID" ManuallyRouted="false" />
+        <AssociationConnector Association="ASITPOSDBModel.FK_SalesReturn_Sales" ManuallyRouted="false" />
+        <AssociationConnector Association="ASITPOSDBModel.FK_dbo_SalesItem_dbo_Stock_StockID" ManuallyRouted="false" />
+        <AssociationConnector Association="ASITPOSDBModel.FK_SalesReturnDetail_SalesReturn" ManuallyRouted="false" />
+        <AssociationConnector Association="ASITPOSDBModel.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

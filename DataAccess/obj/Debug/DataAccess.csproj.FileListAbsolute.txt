@@ -1,0 +1,131 @@
+C:\Users\Anuyel\Source\Repos\posproject\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Anuyel\Source\Repos\posproject\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Anuyel\Source\Repos\posproject\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Anuyel\Source\Repos\posproject\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Anuyel\Source\Repos\posproject\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Anuyel\Desktop\posproject\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Anuyel\Desktop\posproject\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Anuyel\Desktop\posproject\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Anuyel\Desktop\posproject\DataAccess\obj\Debug\DataAccess.pdb
+H:\Projects\Pos new\posproject 170124\posproject\DataAccess\bin\Debug\DataAccess.dll.config
+H:\Projects\Pos new\posproject 170124\posproject\DataAccess\bin\Debug\DataAccess.dll
+H:\Projects\Pos new\posproject 170124\posproject\DataAccess\bin\Debug\DataAccess.pdb
+H:\Projects\Pos new\posproject 170124\posproject\DataAccess\bin\Debug\EntityFramework.dll
+H:\Projects\Pos new\posproject 170124\posproject\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+H:\Projects\Pos new\posproject 170124\posproject\DataAccess\bin\Debug\EntityFramework.xml
+H:\Projects\Pos new\posproject 170124\posproject\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+H:\Projects\Pos new\posproject 170124\posproject\DataAccess\obj\Debug\DataAccess.dll
+H:\Projects\Pos new\posproject 170124\posproject\DataAccess\obj\Debug\DataAccess.pdb
+H:\Projects\Pos new\posproject 170124\posproject\DataAccess\bin\Debug\BusinessEntity.dll
+H:\Projects\Pos new\posproject 170124\posproject\DataAccess\bin\Debug\BusinessEntity.pdb
+H:\Projects\Pos new\posproject 170124\posproject\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+H:\Projects\Pos new\posproject 170124\posproject\DataAccess\bin\Debug\BusinessEntityL.dll
+H:\Projects\Pos new\posproject 170124\posproject\DataAccess\bin\Debug\BusinessEntityL.pdb
+H:\Projects\Pos new\posproject going\posproject\DataAccess\bin\Debug\DataAccess.dll.config
+H:\Projects\Pos new\posproject going\posproject\DataAccess\bin\Debug\DataAccess.dll
+H:\Projects\Pos new\posproject going\posproject\DataAccess\bin\Debug\DataAccess.pdb
+H:\Projects\Pos new\posproject going\posproject\DataAccess\bin\Debug\BusinessEntity.dll
+H:\Projects\Pos new\posproject going\posproject\DataAccess\bin\Debug\BusinessEntityL.dll
+H:\Projects\Pos new\posproject going\posproject\DataAccess\bin\Debug\EntityFramework.dll
+H:\Projects\Pos new\posproject going\posproject\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+H:\Projects\Pos new\posproject going\posproject\DataAccess\bin\Debug\BusinessEntity.pdb
+H:\Projects\Pos new\posproject going\posproject\DataAccess\bin\Debug\BusinessEntityL.pdb
+H:\Projects\Pos new\posproject going\posproject\DataAccess\bin\Debug\EntityFramework.xml
+H:\Projects\Pos new\posproject going\posproject\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+H:\Projects\Pos new\posproject going\posproject\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+H:\Projects\Pos new\posproject going\posproject\DataAccess\obj\Debug\DataAccess.dll
+H:\Projects\Pos new\posproject going\posproject\DataAccess\obj\Debug\DataAccess.pdb
+E:\Project\POS\posproject 170128\posproject going\posproject\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+E:\Project\POS\posproject 170128\posproject going\posproject\DataAccess\obj\Debug\DataAccess.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\DataAccess\obj\Debug\DataAccess.pdb
+E:\Project\POS\posproject 170128\posproject going\posproject\DataAccess\bin\Debug\DataAccess.dll.config
+E:\Project\POS\posproject 170128\posproject going\posproject\DataAccess\bin\Debug\DataAccess.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\DataAccess\bin\Debug\DataAccess.pdb
+E:\Project\POS\posproject 170128\posproject going\posproject\DataAccess\bin\Debug\BusinessEntityL.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\DataAccess\bin\Debug\EntityFramework.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\DataAccess\bin\Debug\BusinessEntityL.pdb
+E:\Project\POS\posproject 170128\posproject going\posproject\DataAccess\bin\Debug\EntityFramework.xml
+E:\Project\POS\posproject 170128\posproject going\posproject\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\DataAccess\obj\Debug\DataAccess.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\DataAccess\obj\Debug\DataAccess.pdb
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\DataAccess\bin\Debug\DataAccess.dll.config
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\DataAccess\bin\Debug\DataAccess.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\DataAccess\bin\Debug\DataAccess.pdb
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\DataAccess\bin\Debug\EntityFramework.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\DataAccess\bin\Debug\EntityFramework.xml
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+E:\Project\POS\posproject going\posproject\DataAccess\bin\Debug\DataAccess.dll.config
+E:\Project\POS\posproject going\posproject\DataAccess\bin\Debug\DataAccess.dll
+E:\Project\POS\posproject going\posproject\DataAccess\bin\Debug\DataAccess.pdb
+E:\Project\POS\posproject going\posproject\DataAccess\bin\Debug\EntityFramework.dll
+E:\Project\POS\posproject going\posproject\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+E:\Project\POS\posproject going\posproject\DataAccess\bin\Debug\EntityFramework.xml
+E:\Project\POS\posproject going\posproject\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+E:\Project\POS\posproject going\posproject\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+E:\Project\POS\posproject going\posproject\DataAccess\obj\Debug\DataAccess.dll
+E:\Project\POS\posproject going\posproject\DataAccess\obj\Debug\DataAccess.pdb
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\DataAccess\bin\Debug\DataAccess.dll.config
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\DataAccess\bin\Debug\DataAccess.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\DataAccess\bin\Debug\DataAccess.pdb
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\DataAccess\bin\Debug\EntityFramework.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\DataAccess\bin\Debug\EntityFramework.xml
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\DataAccess\obj\Debug\DataAccess.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\DataAccess\obj\Debug\DataAccess.pdb
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\DataAccess\bin\Debug\DataAccess.dll.config
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\DataAccess\bin\Debug\DataAccess.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\DataAccess\bin\Debug\DataAccess.pdb
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\DataAccess\bin\Debug\EntityFramework.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\DataAccess\bin\Debug\EntityFramework.xml
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\DataAccess\obj\Debug\DataAccess.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\DataAccess\obj\Debug\DataAccess.pdb
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\DataAccess\obj\Debug\DataAccess.pdb
+H:\Projects\Pos new\posproject 170204\POSProject Going\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+H:\Projects\Pos new\posproject 170204\POSProject Going\DataAccess\obj\Debug\DataAccess.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\DataAccess\obj\Debug\DataAccess.pdb
+E:\Project\POS\POSProject Going\DataAccess\bin\Debug\DataAccess.dll.config
+E:\Project\POS\POSProject Going\DataAccess\bin\Debug\DataAccess.dll
+E:\Project\POS\POSProject Going\DataAccess\bin\Debug\DataAccess.pdb
+E:\Project\POS\POSProject Going\DataAccess\bin\Debug\EntityFramework.dll
+E:\Project\POS\POSProject Going\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+E:\Project\POS\POSProject Going\DataAccess\bin\Debug\EntityFramework.xml
+E:\Project\POS\POSProject Going\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+E:\Project\POS\POSProject Going\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+E:\Project\POS\POSProject Going\DataAccess\obj\Debug\DataAccess.dll
+E:\Project\POS\POSProject Going\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\DataAccess\obj\Debug\DataAccess.pdb
+H:\Projects\Pos new\POSProject Going\DataAccess\bin\Debug\DataAccess.dll.config
+H:\Projects\Pos new\POSProject Going\DataAccess\bin\Debug\DataAccess.dll
+H:\Projects\Pos new\POSProject Going\DataAccess\bin\Debug\DataAccess.pdb
+H:\Projects\Pos new\POSProject Going\DataAccess\bin\Debug\EntityFramework.dll
+H:\Projects\Pos new\POSProject Going\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+H:\Projects\Pos new\POSProject Going\DataAccess\bin\Debug\EntityFramework.xml
+H:\Projects\Pos new\POSProject Going\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+H:\Projects\Pos new\POSProject Going\DataAccess\obj\Debug\DataAccess.dll
+H:\Projects\Pos new\POSProject Going\DataAccess\obj\Debug\DataAccess.pdb

@@ -1,0 +1,10 @@
+H:\Projects\Pos new\POSProject Going\DataAccess\bin\Release\DataAccess.dll.config
+H:\Projects\Pos new\POSProject Going\DataAccess\bin\Release\DataAccess.dll
+H:\Projects\Pos new\POSProject Going\DataAccess\bin\Release\DataAccess.pdb
+H:\Projects\Pos new\POSProject Going\DataAccess\bin\Release\EntityFramework.dll
+H:\Projects\Pos new\POSProject Going\DataAccess\bin\Release\EntityFramework.SqlServer.dll
+H:\Projects\Pos new\POSProject Going\DataAccess\bin\Release\EntityFramework.xml
+H:\Projects\Pos new\POSProject Going\DataAccess\bin\Release\EntityFramework.SqlServer.xml
+H:\Projects\Pos new\POSProject Going\DataAccess\obj\Release\DataAccess.csprojResolveAssemblyReference.cache
+H:\Projects\Pos new\POSProject Going\DataAccess\obj\Release\DataAccess.dll
+H:\Projects\Pos new\POSProject Going\DataAccess\obj\Release\DataAccess.pdb

@@ -1,0 +1,1063 @@
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\ApplicationInsights.config
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\roslyn\csc.exe
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\roslyn\vbc.exe
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\POSWeb.dll.config
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\POSWeb.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\POSWeb.pdb
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\BusinessEntity.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\DataAccess.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\Microsoft.AI.Web.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\PagedList.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\PagedList.Mvc.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\System.Web.Helpers.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\System.Web.Mvc.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\System.Web.Razor.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\System.Web.Webpages.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\System.Web.Webpages.Razor.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\BusinessEntity.pdb
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\DataAccess.pdb
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\Microsoft.AI.Web.xml
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\PagedList.xml
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\PagedList.Mvc.xml
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\System.Web.Razor.xml
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\System.Web.Webpages.xml
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\System.Web.Webpages.Razor.xml
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\System.Web.Helpers.xml
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\bin\System.Web.Mvc.xml
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\obj\Debug\POSWeb.csprojResolveAssemblyReference.cache
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\obj\Debug\POSWeb.dll
+C:\Users\Anuyel\Source\Repos\posproject\POSWeb\obj\Debug\POSWeb.pdb
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\ApplicationInsights.config
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\roslyn\csc.exe
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\roslyn\vbc.exe
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\POSWeb.dll.config
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\POSWeb.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\POSWeb.pdb
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\Antlr3.Runtime.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\BusinessEntity.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\DataAccess.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\Microsoft.AI.Web.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\Newtonsoft.Json.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\PagedList.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\PagedList.Mvc.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\System.Web.Helpers.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\System.Web.Mvc.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\System.Web.Optimization.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\System.Web.Razor.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\System.Web.Webpages.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\System.Web.Webpages.Razor.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\WebGrease.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\BusinessEntity.pdb
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\DataAccess.pdb
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\Antlr3.Runtime.pdb
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\Microsoft.AI.Web.xml
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\Newtonsoft.Json.xml
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\PagedList.xml
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\PagedList.Mvc.xml
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\System.Web.Optimization.xml
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\System.Web.Razor.xml
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\System.Web.Webpages.xml
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\System.Web.Webpages.Razor.xml
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\System.Web.Helpers.xml
+C:\Users\Anuyel\Desktop\posproject\POSWeb\bin\System.Web.Mvc.xml
+C:\Users\Anuyel\Desktop\posproject\POSWeb\obj\Debug\POSWeb.csprojResolveAssemblyReference.cache
+C:\Users\Anuyel\Desktop\posproject\POSWeb\obj\Debug\POSWeb.dll
+C:\Users\Anuyel\Desktop\posproject\POSWeb\obj\Debug\POSWeb.pdb
+E:\Project\posproject 170124\posproject\POSWeb\bin\ApplicationInsights.config
+E:\Project\posproject 170124\posproject\POSWeb\bin\roslyn\csc.exe
+E:\Project\posproject 170124\posproject\POSWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Project\posproject 170124\posproject\POSWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Project\posproject 170124\posproject\POSWeb\bin\roslyn\System.Collections.Immutable.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\roslyn\System.Reflection.Metadata.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\roslyn\vbc.exe
+E:\Project\posproject 170124\posproject\POSWeb\bin\roslyn\VBCSCompiler.exe
+E:\Project\posproject 170124\posproject\POSWeb\bin\roslyn\VBCSCompiler.exe.config
+E:\Project\posproject 170124\posproject\POSWeb\bin\POSWeb.dll.config
+E:\Project\posproject 170124\posproject\POSWeb\bin\POSWeb.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\POSWeb.pdb
+E:\Project\posproject 170124\posproject\POSWeb\bin\Antlr3.Runtime.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\BusinessEntity.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\DataAccess.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\Microsoft.AI.DependencyCollector.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\Microsoft.AI.Web.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\Microsoft.AI.WindowsServer.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\Microsoft.ApplicationInsights.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\Newtonsoft.Json.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\PagedList.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\PagedList.Mvc.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\System.Web.Helpers.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\System.Web.Mvc.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\System.Web.Optimization.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\System.Web.Razor.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\System.Web.Webpages.Deployment.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\System.Web.Webpages.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\System.Web.Webpages.Razor.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\WebGrease.dll
+E:\Project\posproject 170124\posproject\POSWeb\bin\BusinessEntity.pdb
+E:\Project\posproject 170124\posproject\POSWeb\bin\DataAccess.pdb
+E:\Project\posproject 170124\posproject\POSWeb\bin\Antlr3.Runtime.pdb
+E:\Project\posproject 170124\posproject\POSWeb\bin\Microsoft.AI.DependencyCollector.xml
+E:\Project\posproject 170124\posproject\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Project\posproject 170124\posproject\POSWeb\bin\Microsoft.AI.Web.xml
+E:\Project\posproject 170124\posproject\POSWeb\bin\Microsoft.AI.WindowsServer.xml
+E:\Project\posproject 170124\posproject\POSWeb\bin\Microsoft.ApplicationInsights.xml
+E:\Project\posproject 170124\posproject\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Project\posproject 170124\posproject\POSWeb\bin\Newtonsoft.Json.xml
+E:\Project\posproject 170124\posproject\POSWeb\bin\PagedList.xml
+E:\Project\posproject 170124\posproject\POSWeb\bin\PagedList.Mvc.xml
+E:\Project\posproject 170124\posproject\POSWeb\bin\System.Web.Optimization.xml
+E:\Project\posproject 170124\posproject\POSWeb\bin\System.Web.Razor.xml
+E:\Project\posproject 170124\posproject\POSWeb\bin\System.Web.Webpages.xml
+E:\Project\posproject 170124\posproject\POSWeb\bin\System.Web.Webpages.Deployment.xml
+E:\Project\posproject 170124\posproject\POSWeb\bin\System.Web.Webpages.Razor.xml
+E:\Project\posproject 170124\posproject\POSWeb\bin\System.Web.Helpers.xml
+E:\Project\posproject 170124\posproject\POSWeb\bin\System.Web.Mvc.xml
+E:\Project\posproject 170124\posproject\POSWeb\obj\Debug\POSWeb.csprojResolveAssemblyReference.cache
+E:\Project\posproject 170124\posproject\POSWeb\obj\Debug\POSWeb.dll
+E:\Project\posproject 170124\posproject\POSWeb\obj\Debug\POSWeb.pdb
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\ApplicationInsights.config
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\roslyn\csc.exe
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\roslyn\System.Collections.Immutable.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\roslyn\System.Reflection.Metadata.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\roslyn\vbc.exe
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\roslyn\VBCSCompiler.exe
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\roslyn\VBCSCompiler.exe.config
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\POSWeb.dll.config
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\POSWeb.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\POSWeb.pdb
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\Antlr3.Runtime.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\BusinessEntity.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\DataAccess.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\EntityFramework.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\EntityFramework.SqlServer.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\Microsoft.AI.Agent.Intercept.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\Microsoft.AI.DependencyCollector.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\Microsoft.AI.Web.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\Microsoft.AI.WindowsServer.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\Microsoft.ApplicationInsights.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\Microsoft.Web.Infrastructure.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\Newtonsoft.Json.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\PagedList.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\PagedList.Mvc.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\System.Web.Helpers.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\System.Web.Mvc.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\System.Web.Optimization.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\System.Web.Razor.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\System.Web.Webpages.Deployment.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\System.Web.Webpages.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\System.Web.Webpages.Razor.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\WebGrease.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\BusinessEntity.pdb
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\DataAccess.pdb
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\Antlr3.Runtime.pdb
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\EntityFramework.xml
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\EntityFramework.SqlServer.xml
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\Microsoft.AI.DependencyCollector.xml
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\Microsoft.AI.Web.xml
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\Microsoft.AI.WindowsServer.xml
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\Microsoft.ApplicationInsights.xml
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\Newtonsoft.Json.xml
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\PagedList.xml
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\PagedList.Mvc.xml
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\System.Web.Optimization.xml
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\System.Web.Razor.xml
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\System.Web.Webpages.xml
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\System.Web.Webpages.Deployment.xml
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\System.Web.Webpages.Razor.xml
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\System.Web.Helpers.xml
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\System.Web.Mvc.xml
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\obj\Debug\POSWeb.csprojResolveAssemblyReference.cache
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\obj\Debug\POSWeb.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\obj\Debug\POSWeb.pdb
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\BusinessEntityL.dll
+H:\Projects\Pos new\posproject 170124\posproject\POSWeb\bin\BusinessEntityL.pdb
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\ApplicationInsights.config
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\roslyn\csc.exe
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\roslyn\System.Collections.Immutable.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\roslyn\System.Reflection.Metadata.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\roslyn\vbc.exe
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\roslyn\VBCSCompiler.exe
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\roslyn\VBCSCompiler.exe.config
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\POSWeb.dll.config
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\POSWeb.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\POSWeb.pdb
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\Antlr3.Runtime.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\BusinessEntity.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\BusinessEntityL.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\DataAccess.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\EntityFramework.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\EntityFramework.SqlServer.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\Microsoft.AI.Agent.Intercept.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\Microsoft.AI.DependencyCollector.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\Microsoft.AI.Web.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\Microsoft.AI.WindowsServer.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\Microsoft.ApplicationInsights.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\Microsoft.Web.Infrastructure.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\Newtonsoft.Json.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\PagedList.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\PagedList.Mvc.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\System.Web.Helpers.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\System.Web.Mvc.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\System.Web.Optimization.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\System.Web.Razor.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\System.Web.Webpages.Deployment.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\System.Web.Webpages.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\System.Web.Webpages.Razor.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\WebGrease.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\BusinessEntity.pdb
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\BusinessEntityL.pdb
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\DataAccess.pdb
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\Antlr3.Runtime.pdb
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\EntityFramework.xml
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\EntityFramework.SqlServer.xml
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\Microsoft.AI.DependencyCollector.xml
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\Microsoft.AI.Web.xml
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\Microsoft.AI.WindowsServer.xml
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\Microsoft.ApplicationInsights.xml
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\Newtonsoft.Json.xml
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\PagedList.xml
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\PagedList.Mvc.xml
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\System.Web.Optimization.xml
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\System.Web.Razor.xml
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\System.Web.Webpages.xml
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\System.Web.Webpages.Deployment.xml
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\System.Web.Webpages.Razor.xml
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\System.Web.Helpers.xml
+H:\Projects\Pos new\posproject going\posproject\POSWeb\bin\System.Web.Mvc.xml
+H:\Projects\Pos new\posproject going\posproject\POSWeb\obj\Debug\POSWeb.csprojResolveAssemblyReference.cache
+H:\Projects\Pos new\posproject going\posproject\POSWeb\obj\Debug\POSWeb.dll
+H:\Projects\Pos new\posproject going\posproject\POSWeb\obj\Debug\POSWeb.pdb
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\obj\Debug\POSWeb.csprojResolveAssemblyReference.cache
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\obj\Debug\POSWeb.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\obj\Debug\POSWeb.pdb
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\ApplicationInsights.config
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\roslyn\csc.exe
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\roslyn\System.Collections.Immutable.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\roslyn\System.Reflection.Metadata.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\roslyn\vbc.exe
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\roslyn\VBCSCompiler.exe
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\roslyn\VBCSCompiler.exe.config
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\POSWeb.dll.config
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\POSWeb.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\POSWeb.pdb
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\Antlr3.Runtime.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\BusinessEntity.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\BusinessEntityL.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\DataAccess.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\EntityFramework.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\EntityFramework.SqlServer.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.AI.DependencyCollector.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.AI.Web.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.AI.WindowsServer.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.ApplicationInsights.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\Newtonsoft.Json.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\PagedList.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\PagedList.Mvc.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Helpers.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Mvc.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Optimization.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Razor.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Webpages.Deployment.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Webpages.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Webpages.Razor.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\WebGrease.dll
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\BusinessEntityL.pdb
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\BusinessEntity.pdb
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\DataAccess.pdb
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\Antlr3.Runtime.pdb
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\EntityFramework.xml
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\EntityFramework.SqlServer.xml
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.AI.DependencyCollector.xml
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.AI.Web.xml
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.AI.WindowsServer.xml
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.ApplicationInsights.xml
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\Newtonsoft.Json.xml
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\PagedList.xml
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\PagedList.Mvc.xml
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Optimization.xml
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Razor.xml
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Webpages.xml
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Webpages.Deployment.xml
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Webpages.Razor.xml
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Helpers.xml
+E:\Project\POS\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Mvc.xml
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\obj\Debug\POSWeb.csprojResolveAssemblyReference.cache
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\obj\Debug\POSWeb.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\obj\Debug\POSWeb.pdb
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\ApplicationInsights.config
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\roslyn\csc.exe
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\roslyn\System.Collections.Immutable.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\roslyn\System.Reflection.Metadata.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\roslyn\vbc.exe
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\roslyn\VBCSCompiler.exe
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\roslyn\VBCSCompiler.exe.config
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\POSWeb.dll.config
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\POSWeb.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\POSWeb.pdb
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\Antlr3.Runtime.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\BusinessEntity.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\DataAccess.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\EntityFramework.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\EntityFramework.SqlServer.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.AI.Agent.Intercept.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.AI.DependencyCollector.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.AI.Web.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.AI.WindowsServer.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.ApplicationInsights.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.Web.Infrastructure.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\Newtonsoft.Json.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\PagedList.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\PagedList.Mvc.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Helpers.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Mvc.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Optimization.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Razor.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Webpages.Deployment.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Webpages.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Webpages.Razor.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\WebGrease.dll
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\BusinessEntity.pdb
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\DataAccess.pdb
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\Antlr3.Runtime.pdb
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\EntityFramework.xml
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\EntityFramework.SqlServer.xml
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.AI.DependencyCollector.xml
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.AI.Web.xml
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.AI.WindowsServer.xml
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.ApplicationInsights.xml
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\Newtonsoft.Json.xml
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\PagedList.xml
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\PagedList.Mvc.xml
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Optimization.xml
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Razor.xml
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Webpages.xml
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Webpages.Deployment.xml
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Webpages.Razor.xml
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Helpers.xml
+H:\Projects\Pos new\posproject 170129\posproject 170128\posproject going\posproject\POSWeb\bin\System.Web.Mvc.xml
+E:\Project\POS\posproject going\posproject\POSWeb\bin\ApplicationInsights.config
+E:\Project\POS\posproject going\posproject\POSWeb\bin\roslyn\csc.exe
+E:\Project\POS\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Project\POS\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Project\POS\posproject going\posproject\POSWeb\bin\roslyn\System.Collections.Immutable.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\roslyn\System.Reflection.Metadata.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\roslyn\vbc.exe
+E:\Project\POS\posproject going\posproject\POSWeb\bin\roslyn\VBCSCompiler.exe
+E:\Project\POS\posproject going\posproject\POSWeb\bin\roslyn\VBCSCompiler.exe.config
+E:\Project\POS\posproject going\posproject\POSWeb\bin\POSWeb.dll.config
+E:\Project\POS\posproject going\posproject\POSWeb\bin\POSWeb.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\POSWeb.pdb
+E:\Project\POS\posproject going\posproject\POSWeb\bin\Antlr3.Runtime.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\BusinessEntity.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\DataAccess.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\EntityFramework.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\EntityFramework.SqlServer.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\Microsoft.AI.DependencyCollector.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\Microsoft.AI.Web.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\Microsoft.AI.WindowsServer.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\Microsoft.ApplicationInsights.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\Newtonsoft.Json.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\PagedList.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\PagedList.Mvc.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\System.Web.Helpers.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\System.Web.Mvc.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\System.Web.Optimization.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\System.Web.Razor.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\System.Web.Webpages.Deployment.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\System.Web.Webpages.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\System.Web.Webpages.Razor.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\WebGrease.dll
+E:\Project\POS\posproject going\posproject\POSWeb\bin\BusinessEntity.pdb
+E:\Project\POS\posproject going\posproject\POSWeb\bin\DataAccess.pdb
+E:\Project\POS\posproject going\posproject\POSWeb\bin\Antlr3.Runtime.pdb
+E:\Project\POS\posproject going\posproject\POSWeb\bin\EntityFramework.xml
+E:\Project\POS\posproject going\posproject\POSWeb\bin\EntityFramework.SqlServer.xml
+E:\Project\POS\posproject going\posproject\POSWeb\bin\Microsoft.AI.DependencyCollector.xml
+E:\Project\POS\posproject going\posproject\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Project\POS\posproject going\posproject\POSWeb\bin\Microsoft.AI.Web.xml
+E:\Project\POS\posproject going\posproject\POSWeb\bin\Microsoft.AI.WindowsServer.xml
+E:\Project\POS\posproject going\posproject\POSWeb\bin\Microsoft.ApplicationInsights.xml
+E:\Project\POS\posproject going\posproject\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Project\POS\posproject going\posproject\POSWeb\bin\Newtonsoft.Json.xml
+E:\Project\POS\posproject going\posproject\POSWeb\bin\PagedList.xml
+E:\Project\POS\posproject going\posproject\POSWeb\bin\PagedList.Mvc.xml
+E:\Project\POS\posproject going\posproject\POSWeb\bin\System.Web.Optimization.xml
+E:\Project\POS\posproject going\posproject\POSWeb\bin\System.Web.Razor.xml
+E:\Project\POS\posproject going\posproject\POSWeb\bin\System.Web.Webpages.xml
+E:\Project\POS\posproject going\posproject\POSWeb\bin\System.Web.Webpages.Deployment.xml
+E:\Project\POS\posproject going\posproject\POSWeb\bin\System.Web.Webpages.Razor.xml
+E:\Project\POS\posproject going\posproject\POSWeb\bin\System.Web.Helpers.xml
+E:\Project\POS\posproject going\posproject\POSWeb\bin\System.Web.Mvc.xml
+E:\Project\POS\posproject going\posproject\POSWeb\obj\Debug\POSWeb.csprojResolveAssemblyReference.cache
+E:\Project\POS\posproject going\posproject\POSWeb\obj\Debug\POSWeb.dll
+E:\Project\POS\posproject going\posproject\POSWeb\obj\Debug\POSWeb.pdb
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\ApplicationInsights.config
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\roslyn\csc.exe
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\roslyn\System.Collections.Immutable.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\roslyn\System.Reflection.Metadata.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\roslyn\vbc.exe
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\roslyn\VBCSCompiler.exe
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\roslyn\VBCSCompiler.exe.config
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\POSWeb.dll.config
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\POSWeb.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\POSWeb.pdb
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\Antlr3.Runtime.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\BusinessEntity.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\DataAccess.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\EntityFramework.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\EntityFramework.SqlServer.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\Microsoft.AI.Agent.Intercept.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\Microsoft.AI.DependencyCollector.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\Microsoft.AI.Web.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\Microsoft.AI.WindowsServer.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\Microsoft.ApplicationInsights.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\Microsoft.Web.Infrastructure.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\Newtonsoft.Json.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\PagedList.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\PagedList.Mvc.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\System.Web.Helpers.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\System.Web.Mvc.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\System.Web.Optimization.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\System.Web.Razor.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\System.Web.Webpages.Deployment.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\System.Web.Webpages.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\System.Web.Webpages.Razor.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\WebGrease.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\BusinessEntity.pdb
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\DataAccess.pdb
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\Antlr3.Runtime.pdb
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\EntityFramework.xml
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\EntityFramework.SqlServer.xml
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\Microsoft.AI.DependencyCollector.xml
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\Microsoft.AI.Web.xml
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\Microsoft.AI.WindowsServer.xml
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\Microsoft.ApplicationInsights.xml
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\Newtonsoft.Json.xml
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\PagedList.xml
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\PagedList.Mvc.xml
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\System.Web.Optimization.xml
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\System.Web.Razor.xml
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\System.Web.Webpages.xml
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\System.Web.Webpages.Deployment.xml
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\System.Web.Webpages.Razor.xml
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\System.Web.Helpers.xml
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\bin\System.Web.Mvc.xml
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\obj\Debug\POSWeb.csprojResolveAssemblyReference.cache
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\obj\Debug\POSWeb.dll
+H:\Projects\Pos new\posproject 170131\posproject office\posproject going\posproject\POSWeb\obj\Debug\POSWeb.pdb
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\ApplicationInsights.config
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\roslyn\csc.exe
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\roslyn\System.Collections.Immutable.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\roslyn\System.Reflection.Metadata.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\roslyn\vbc.exe
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\roslyn\VBCSCompiler.exe
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\roslyn\VBCSCompiler.exe.config
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\POSWeb.dll.config
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\POSWeb.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\POSWeb.pdb
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\Antlr3.Runtime.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\BusinessEntity.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\DataAccess.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\EntityFramework.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\EntityFramework.SqlServer.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.DependencyCollector.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.Web.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.WindowsServer.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\Microsoft.ApplicationInsights.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\Newtonsoft.Json.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\PagedList.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\PagedList.Mvc.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\System.Web.Helpers.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\System.Web.Mvc.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\System.Web.Optimization.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\System.Web.Razor.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\System.Web.Webpages.Deployment.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\System.Web.Webpages.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\System.Web.Webpages.Razor.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\WebGrease.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\BusinessEntity.pdb
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\DataAccess.pdb
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\Antlr3.Runtime.pdb
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\EntityFramework.xml
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\EntityFramework.SqlServer.xml
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.DependencyCollector.xml
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.Web.xml
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.WindowsServer.xml
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\Microsoft.ApplicationInsights.xml
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\Newtonsoft.Json.xml
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\PagedList.xml
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\PagedList.Mvc.xml
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\System.Web.Optimization.xml
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\System.Web.Razor.xml
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\System.Web.Webpages.xml
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\System.Web.Webpages.Deployment.xml
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\System.Web.Webpages.Razor.xml
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\System.Web.Helpers.xml
+E:\Project\POS\posproject 170201\posproject\POSWeb\bin\System.Web.Mvc.xml
+E:\Project\POS\posproject 170201\posproject\POSWeb\obj\Debug\POSWeb.csprojResolveAssemblyReference.cache
+E:\Project\POS\posproject 170201\posproject\POSWeb\obj\Debug\POSWeb.dll
+E:\Project\POS\posproject 170201\posproject\POSWeb\obj\Debug\POSWeb.pdb
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\ApplicationInsights.config
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\roslyn\csc.exe
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\roslyn\System.Collections.Immutable.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\roslyn\System.Reflection.Metadata.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\roslyn\vbc.exe
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\roslyn\VBCSCompiler.exe
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\roslyn\VBCSCompiler.exe.config
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\POSWeb.dll.config
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\POSWeb.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\POSWeb.pdb
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\Antlr3.Runtime.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\BusinessEntity.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\DataAccess.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\EntityFramework.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\EntityFramework.SqlServer.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.Agent.Intercept.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.DependencyCollector.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.Web.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.WindowsServer.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\Microsoft.ApplicationInsights.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\Microsoft.Web.Infrastructure.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\Newtonsoft.Json.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\PagedList.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\PagedList.Mvc.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\System.Web.Helpers.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\System.Web.Mvc.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\System.Web.Optimization.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\System.Web.Razor.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\System.Web.Webpages.Deployment.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\System.Web.Webpages.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\System.Web.Webpages.Razor.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\WebGrease.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\BusinessEntity.pdb
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\DataAccess.pdb
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\Antlr3.Runtime.pdb
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\EntityFramework.xml
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\EntityFramework.SqlServer.xml
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.DependencyCollector.xml
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.Web.xml
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.WindowsServer.xml
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\Microsoft.ApplicationInsights.xml
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\Newtonsoft.Json.xml
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\PagedList.xml
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\PagedList.Mvc.xml
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\System.Web.Optimization.xml
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\System.Web.Razor.xml
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\System.Web.Webpages.xml
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\System.Web.Webpages.Deployment.xml
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\System.Web.Webpages.Razor.xml
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\System.Web.Helpers.xml
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\bin\System.Web.Mvc.xml
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\obj\Debug\POSWeb.csprojResolveAssemblyReference.cache
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\obj\Debug\POSWeb.dll
+H:\Projects\Pos new\posproject 170201 final\posproject 170201\posproject\POSWeb\obj\Debug\POSWeb.pdb
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\ApplicationInsights.config
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\roslyn\csc.exe
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\roslyn\vbc.exe
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\POSWeb.dll.config
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\POSWeb.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\POSWeb.pdb
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\BusinessEntity.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\DataAccess.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\EntityFramework.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.Web.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\PagedList.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\PagedList.Mvc.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\System.Web.Webpages.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\System.Web.Webpages.Razor.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\WebGrease.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\BusinessEntity.pdb
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\DataAccess.pdb
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.Web.xml
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\PagedList.xml
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\PagedList.Mvc.xml
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\System.Web.Optimization.xml
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\System.Web.Webpages.xml
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\System.Web.Webpages.Razor.xml
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\obj\Debug\POSWeb.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\obj\Debug\POSWeb.dll
+C:\Users\Administrator\Desktop\posproject 170203\posproject 170201\posproject\POSWeb\obj\Debug\POSWeb.pdb
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\ApplicationInsights.config
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\roslyn\csc.exe
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\roslyn\System.Collections.Immutable.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\roslyn\System.Reflection.Metadata.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\roslyn\vbc.exe
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\roslyn\VBCSCompiler.exe
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\roslyn\VBCSCompiler.exe.config
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\POSWeb.dll.config
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\POSWeb.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\POSWeb.pdb
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\Antlr3.Runtime.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\BusinessEntity.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\DataAccess.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\EntityFramework.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\EntityFramework.SqlServer.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\Microsoft.AI.Agent.Intercept.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\Microsoft.AI.DependencyCollector.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\Microsoft.AI.Web.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\Microsoft.AI.WindowsServer.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\Microsoft.ApplicationInsights.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\Microsoft.Web.Infrastructure.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\Newtonsoft.Json.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\PagedList.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\PagedList.Mvc.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\System.Web.Helpers.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\System.Web.Mvc.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\System.Web.Optimization.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\System.Web.Razor.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\System.Web.Webpages.Deployment.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\System.Web.Webpages.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\System.Web.Webpages.Razor.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\WebGrease.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\BusinessEntity.pdb
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\DataAccess.pdb
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\Antlr3.Runtime.pdb
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\EntityFramework.xml
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\EntityFramework.SqlServer.xml
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\Microsoft.AI.DependencyCollector.xml
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\Microsoft.AI.Web.xml
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\Microsoft.AI.WindowsServer.xml
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\Microsoft.ApplicationInsights.xml
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\Newtonsoft.Json.xml
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\PagedList.xml
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\PagedList.Mvc.xml
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\System.Web.Optimization.xml
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\System.Web.Razor.xml
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\System.Web.Webpages.xml
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\System.Web.Webpages.Deployment.xml
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\System.Web.Webpages.Razor.xml
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\System.Web.Helpers.xml
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\bin\System.Web.Mvc.xml
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\obj\Debug\POSWeb.csprojResolveAssemblyReference.cache
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\obj\Debug\POSWeb.dll
+H:\Projects\Pos new\posproject 170204\POSProject Going\POSWeb\obj\Debug\POSWeb.pdb
+E:\Project\POS\POSProject Going\POSWeb\bin\ApplicationInsights.config
+E:\Project\POS\POSProject Going\POSWeb\bin\roslyn\csc.exe
+E:\Project\POS\POSProject Going\POSWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Project\POS\POSProject Going\POSWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Project\POS\POSProject Going\POSWeb\bin\roslyn\System.Collections.Immutable.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\roslyn\System.Reflection.Metadata.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\roslyn\vbc.exe
+E:\Project\POS\POSProject Going\POSWeb\bin\roslyn\VBCSCompiler.exe
+E:\Project\POS\POSProject Going\POSWeb\bin\roslyn\VBCSCompiler.exe.config
+E:\Project\POS\POSProject Going\POSWeb\bin\POSWeb.dll.config
+E:\Project\POS\POSProject Going\POSWeb\bin\POSWeb.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\POSWeb.pdb
+E:\Project\POS\POSProject Going\POSWeb\bin\Antlr3.Runtime.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\BusinessEntity.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\DataAccess.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\EntityFramework.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\EntityFramework.SqlServer.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.AI.DependencyCollector.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.AI.Web.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.AI.WindowsServer.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.ApplicationInsights.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\Newtonsoft.Json.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\PagedList.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\PagedList.Mvc.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\System.Web.Helpers.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\System.Web.Mvc.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\System.Web.Optimization.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\System.Web.Razor.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\System.Web.Webpages.Deployment.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\System.Web.Webpages.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\System.Web.Webpages.Razor.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\WebGrease.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\BusinessEntity.pdb
+E:\Project\POS\POSProject Going\POSWeb\bin\DataAccess.pdb
+E:\Project\POS\POSProject Going\POSWeb\bin\Antlr3.Runtime.pdb
+E:\Project\POS\POSProject Going\POSWeb\bin\EntityFramework.xml
+E:\Project\POS\POSProject Going\POSWeb\bin\EntityFramework.SqlServer.xml
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.AI.DependencyCollector.xml
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.AI.Web.xml
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.AI.WindowsServer.xml
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.ApplicationInsights.xml
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Project\POS\POSProject Going\POSWeb\bin\Newtonsoft.Json.xml
+E:\Project\POS\POSProject Going\POSWeb\bin\PagedList.xml
+E:\Project\POS\POSProject Going\POSWeb\bin\PagedList.Mvc.xml
+E:\Project\POS\POSProject Going\POSWeb\bin\System.Web.Optimization.xml
+E:\Project\POS\POSProject Going\POSWeb\bin\System.Web.Razor.xml
+E:\Project\POS\POSProject Going\POSWeb\bin\System.Web.Webpages.xml
+E:\Project\POS\POSProject Going\POSWeb\bin\System.Web.Webpages.Deployment.xml
+E:\Project\POS\POSProject Going\POSWeb\bin\System.Web.Webpages.Razor.xml
+E:\Project\POS\POSProject Going\POSWeb\bin\System.Web.Helpers.xml
+E:\Project\POS\POSProject Going\POSWeb\bin\System.Web.Mvc.xml
+E:\Project\POS\POSProject Going\POSWeb\obj\Debug\POSWeb.csprojResolveAssemblyReference.cache
+E:\Project\POS\POSProject Going\POSWeb\obj\Debug\POSWeb.dll
+E:\Project\POS\POSProject Going\POSWeb\obj\Debug\POSWeb.pdb
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\ApplicationInsights.config
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\roslyn\csc.exe
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\roslyn\vbc.exe
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\POSWeb.dll.config
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\POSWeb.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\POSWeb.pdb
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\BusinessEntity.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\DataAccess.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\EntityFramework.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\Microsoft.AI.Web.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\PagedList.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\PagedList.Mvc.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\System.Web.Webpages.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\System.Web.Webpages.Razor.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\WebGrease.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\BusinessEntity.pdb
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\DataAccess.pdb
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\Microsoft.AI.Web.xml
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\PagedList.xml
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\PagedList.Mvc.xml
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\System.Web.Optimization.xml
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\System.Web.Webpages.xml
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\System.Web.Webpages.Razor.xml
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\obj\Debug\POSWeb.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\obj\Debug\POSWeb.dll
+C:\Users\Administrator\Desktop\Sabid\POSProject Going\POSWeb\obj\Debug\POSWeb.pdb
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\ApplicationInsights.config
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\roslyn\csc.exe
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\roslyn\System.Collections.Immutable.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\roslyn\System.Reflection.Metadata.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\roslyn\vbc.exe
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\roslyn\VBCSCompiler.exe
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\roslyn\VBCSCompiler.exe.config
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\POSWeb.dll.config
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\POSWeb.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\POSWeb.pdb
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Antlr3.Runtime.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\BusinessEntity.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\DataAccess.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\EntityFramework.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\EntityFramework.SqlServer.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.AI.Agent.Intercept.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.AI.DependencyCollector.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.AI.Web.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.AI.WindowsServer.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.ApplicationInsights.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.Web.Infrastructure.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Newtonsoft.Json.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\PagedList.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\PagedList.Mvc.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\System.Web.Helpers.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\System.Web.Mvc.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\System.Web.Optimization.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\System.Web.Razor.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\System.Web.Webpages.Deployment.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\System.Web.Webpages.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\System.Web.Webpages.Razor.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\WebGrease.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\BusinessEntity.pdb
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\DataAccess.pdb
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Antlr3.Runtime.pdb
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\EntityFramework.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\EntityFramework.SqlServer.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.AI.DependencyCollector.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.AI.Web.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.AI.WindowsServer.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.ApplicationInsights.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Newtonsoft.Json.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\PagedList.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\PagedList.Mvc.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\System.Web.Optimization.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\System.Web.Razor.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\System.Web.Webpages.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\System.Web.Webpages.Deployment.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\System.Web.Webpages.Razor.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\System.Web.Helpers.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\System.Web.Mvc.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\obj\Debug\POSWeb.csprojResolveAssemblyReference.cache
+H:\Projects\Pos new\POSProject Going\POSWeb\obj\Debug\POSWeb.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\obj\Debug\POSWeb.pdb
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.Owin.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.Owin.Security.Cookies.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.Owin.Security.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.Owin.Security.OAuth.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Owin.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.Owin.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.Owin.Security.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.Owin.Security.Cookies.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.Owin.Security.OAuth.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.AspNet.Identity.Core.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.AspNet.Identity.Core.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.Owin.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.Owin.Security.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\Owin.dll
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.Owin.xml
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.Owin.Security.xml
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Project\POS\POSProject Going\POSWeb\bin\Microsoft.Owin.Security.OAuth.xml
+H:\Projects\Pos new\POSProject Going\POSWeb\obj\Debug\POSWeb.Migrations.InitialIdentityModles.resources
+H:\Projects\Pos new\POSProject Going\POSWeb\obj\Debug\POSWeb.csproj.GenerateResource.Cache

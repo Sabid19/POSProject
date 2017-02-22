@@ -1,0 +1,59 @@
+﻿@model DataAccess.Item
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_layout1.cshtml";
+}
+<div class="box box-primary box-body">
+    <div>
+        <h4>Item</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            @*<dt>
+                @Html.DisplayNameFor(model => model.GenericName.GenericName1)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.GenericName.GenericName1)
+            </dd>*@
+            @*<dt>
+                @Html.DisplayNameFor(model => model.Manufacturer.ManufacturerName)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Manufacturer.ManufacturerName)
+            </dd>*@
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Catagory.CatagoryName)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Catagory.CatagoryName)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.AlertQty)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.AlertQty)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Description)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Description)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.LastUpdated)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.LastUpdated)
+            </dd>
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.ItemID }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</div>

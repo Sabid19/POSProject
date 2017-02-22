@@ -1,0 +1,203 @@
+﻿@model PagedList.IPagedList<BusinessEntity.Product>
+@using PagedList.Mvc;
+
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+@{
+    ViewBag.Title = "Product";
+    Layout = Request.IsAjaxRequest() ? null : "~/Views/Shared/_layout1.cshtml";
+}
+
+
+<style>
+    .table {
+        border-collapse: separate;
+    }
+
+        .table a.table-link.danger {
+            color: #fe635f;
+        }
+
+        .table a.table-link {
+            color: #2bb6a3;
+        }
+
+        .table tbody > tr > td:first-child, .table thead > tr > th:first-child {
+            padding-left: 5px;
+        }
+
+        .table tbody > tr > td {
+            background: #f5f5f5 none repeat scroll 0 0;
+            border-top: 10px solid #fff;
+            font-size: 0.875em;
+            vertical-align: middle;
+        }
+
+        .table thead > tr > th {
+            vertical-align: middle;
+            border-bottom: 0px solid #ddd;
+        }
+
+        .table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td {
+            /*border-top: 10px solid #fff;*/
+            line-height: 1.5;
+            padding: 0px;
+        }
+
+    .user-list tbody td > img {
+        float: left;
+        margin-right: 10px;
+        max-width: 50px;
+        position: relative;
+        height: 50px;
+    }
+
+    .user-list tbody td .user-link {
+        display: block;
+        font-size: 1.25em;
+        margin-left: 60px;
+        padding-top: 3px;
+        color: #34d1be;
+    }
+
+    .user-list tbody td .user-subhead {
+        font-size: 0.875em;
+        font-style: italic;
+    }
+
+    h1 {
+        clear: both;
+        color: #34d1be;
+        margin: 15px 0;
+        padding-left: 30px;
+    }
+
+    .top-page-ui {
+        padding-top: 15px;
+    }
+
+    .table a.table-link {
+        margin: 0 5px;
+        font-size: 1.125em;
+    }
+</style>
+<div id="WrapDiv">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="clearfix">
+                <h1 class="pull-left">Products List</h1>
+                <form class="navbar-search pull-left" style="margin-top:20px;">
+                    @* <input  type="text" name="SearchString" autocomplete="off" placeholder="Search.." value="" class="search-query form-control">*@
+                    @*<span  class="button-search fa fa-search pull-right" style="margin-top:-24px;margin-right:5px;color: cadetblue;"></span>*@
+                    <p>
+                        @Html.TextBox("SearchString", ViewBag.CurrentFilter as string, new { @class = "search-query form-control", @placeholder = "Search.." })
+
+                    </p>
+                    <input type="submit" value="Search" class="button-search fa-search" style="margin-top:-24px;margin-right:5px;color: cadetblue;" />
+                </form>
+
+                <div class="pull-right top-page-ui">
+                    <a href="@Url.Action("AddProduct", "Home")" class="btn btn-primary pull-right">
+                        <i class="fa fa-plus-circle fa-lg"></i> Add Product
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="CDIv" class="row">
+        <div class="col-lg-12">
+            <div class="main-box clearfix">
+                <table class="table table-responsive user-list">
+                    <thead>
+                        <tr>
+                            <th>Image</th>
+                            <th>Product Name</th>
+                            <th>Product Description</th>
+                            <th>Bar Code</th>
+                            <th>Cost Price</th>
+                            <th>Sale Price</th>
+                            <th>Unit</th>
+                            <th>Catagory</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td class="hidden">@item.ProductId </td>
+                                    <td>
+                                        @{
+                                            if (item.ProImage != null)
+                                            {
+                                                var base64 = Convert.ToBase64String(item.ProImage);
+                                                var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
+                                                <img src='@imgSrc' class="img-circle" />
+                                            }
+                                        }
+                                        <a class="user-link" href="@Url.Action("ComProfile", "Admin", new { id = @item.ProductId })"></a>
+                                        @*<span class="user-subhead">Admin</span>*@
+                                    </td>
+                                    <td>@item.ProductName</td>
+                                    <td>@item.ProDesc</td>
+                                    <td>@item.ProBarCode</td>
+                                    <td>@item.CostPrice</td>
+                                    <td>@item.SalePrice</td>
+                                    <td>@item.QuantityPerUnit</td>
+                                    <td>@item.CatagoryId</td>
+                                    <td style="width: 20%;">
+                                        <a class="table-link" href="@Url.Action("EditProduct", "Home", new { id = @item.ProductId })" title="Edit">
+                                            <span class="fa-stack">
+                                                <i class="fa fa-square fa-stack-2x"></i>
+                                                <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
+                                            </span>
+                                        </a>
+                                        <a class="table-link danger" name="aDelet" href="@Url.Action("DeletProduct", "Home", new { id = @item.ProductId })" title="Delete">
+                                            <span class="fa-stack">
+                                                <i class="fa fa-square fa-stack-2x"></i>
+                                                <i class="fa fa-trash-o fa-stack-1x fa-inverse"></i>
+                                            </span>
+                                        </a>
+                                    </td>
+                                </tr>
+                                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+    <div id="myPager">
+        @Html.PagedListPager(Model, page => Url.Action("Product", new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }), new PagedListRenderOptions
+{
+    LinkToFirstPageFormat = "<<",
+    LinkToPreviousPageFormat = "prev",
+    LinkToNextPageFormat = "next",
+    LinkToLastPageFormat = ">>",
+})
+    </div>
+
+</div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("a[name='aDelet']").click(function () {
+                return confirm('Delete selected elements? ');
+            });
+
+            $(function () {
+                $('#myPager').on('click', 'a', function () {
+                    $.ajax({
+                        url: this.href,
+                        type: 'GET',
+                        cache: false,
+                        success: function (result) {
+                            $('#WrapDiv').html(result);
+                        }
+                    });
+                    return false;
+                });
+            });
+        });
+    </script>

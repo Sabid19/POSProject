@@ -72,7 +72,7 @@ namespace POSWeb.Models
             par.Segment = "GETSUPPLIER";
             return par;
         }
-        public SQLParams AddSupplier(Supplier sup)
+        public SQLParams AddSupplier(BusinessEntity.Supplier sup)
         {
             SQLParams par = new SQLParams();
             par.ProcName = "dbo.COMMON_UTILITY";
@@ -105,7 +105,7 @@ namespace POSWeb.Models
             par.var01 = id;
             return par;
         }
-        public SQLParams UpdateSupplier(Supplier sup)
+        public SQLParams UpdateSupplier(BusinessEntity.Supplier sup)
         {
             SQLParams par = new SQLParams();
             par.ProcName = "dbo.COMMON_UTILITY";

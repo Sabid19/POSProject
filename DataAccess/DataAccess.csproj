@@ -30,8 +30,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,10 +51,115 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AspNetRole.cs">
+      <DependentUpon>POSDBModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUser.cs">
+      <DependentUpon>POSDBModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUserClaim.cs">
+      <DependentUpon>POSDBModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUserLogin.cs">
+      <DependentUpon>POSDBModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Catagory.cs">
+      <DependentUpon>POSDBModel1.tt</DependentUpon>
+    </Compile>
     <Compile Include="CsHelper.cs" />
+    <Compile Include="C__MigrationHistory.cs">
+      <DependentUpon>POSDBModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GenericName.cs">
+      <DependentUpon>POSDBModel1.tt</DependentUpon>
+    </Compile>
     <Compile Include="GetData.cs" />
+    <Compile Include="IRepository\IRepository.cs" />
+    <Compile Include="Item.cs">
+      <DependentUpon>POSDBModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Manufacturer.cs">
+      <DependentUpon>POSDBModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Notification.cs">
+      <DependentUpon>POSDBModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.cs">
+      <DependentUpon>POSDBModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POSDBModel1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>POSDBModel1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POSDBModel1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>POSDBModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POSDBModel1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>POSDBModel1.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Purchase.cs">
+      <DependentUpon>POSDBModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseItem.cs">
+      <DependentUpon>POSDBModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Repository\PurchaseEntryRepository.cs" />
+    <Compile Include="Repository\Repository.cs" />
+    <Compile Include="Repository\SalesEntryRepository.cs" />
+    <Compile Include="Sale.cs">
+      <DependentUpon>POSDBModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SalesItem.cs">
+      <DependentUpon>POSDBModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SalesReturn.cs">
+      <DependentUpon>POSDBModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SalesReturnDetail.cs">
+      <DependentUpon>POSDBModel1.tt</DependentUpon>
+    </Compile>
     <Compile Include="SQLParams.cs" />
+    <Compile Include="Stock.cs">
+      <DependentUpon>POSDBModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Supplier.cs">
+      <DependentUpon>POSDBModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserInfo.cs">
+      <DependentUpon>POSDBModel1.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="packages.config" />
+    <EntityDeploy Include="POSDBModel1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>POSDBModel1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="POSDBModel1.edmx.diagram">
+      <DependentUpon>POSDBModel1.edmx</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="POSDBModel1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>POSDBModel1.edmx</DependentUpon>
+      <LastGenOutput>POSDBModel1.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="POSDBModel1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>POSDBModel1.edmx</DependentUpon>
+      <LastGenOutput>POSDBModel1.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
